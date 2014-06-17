@@ -1,0 +1,95 @@
+s=serial('COM26');
+fopen(s);
+get(s,{'STATUS','Type'});
+
+s.ReadAsyncMode = 'continuous';
+% fprintf(s,'*IDN?');
+% s.BytesAvailable
+
+
+while(s.BytesAvailable == 0)
+end
+
+out = 0;
+while(out ~= 08)
+out = fscanf(s)
+end
+
+%% image processing logic
+
+
+vid=videoinput('winvideo',2,'RGB24_640x480');
+% set(vid,'ReturnedColorSpace','rgb');
+preview(vid);
+img=getsnapshot(vid);
+figure;
+imshow(img);
+
+
+
+
+
+
+% img = imcrop(img,[87.5100   61.5100  113.9800   41.9800]);
+ j = size(img); % compute the size of the ball
+imshow(img);
+for k=1:j(1)
+    for l=1:j(2)
+        
+%                 if((img(k,l,1)>160) &&...
+%                 (img(k,l,2)>160))
+%                 
+%             img_bin(k,l)=1;
+
+        
+        
+        
+        
+        if((img(k,l,1)>40 && img(k,l,1)<110) &&...
+                (img(k,l,2)>=0 && img(k,l,2)<30) &&...
+                (img(k,l,3)>=0 && img(k,l,3)<10))
+            img_bin(k,l)=1;
+%         elseif((img(k,l,1) ~= 0 && img(k,l,1) ~= 0) &&...
+%                 (img(k,l,2) ~= 0 && img(k,l,2) ~= 0) &&...
+%                 (img(k,l,3) ~= 0 && img(k,l,3) ~= 0))
+%             img_bin(k,l)=2;
+            else
+                img_bin(k,l)=0;
+        end
+    end
+end
+
+imshow(img_bin);
+            
+
+[label,num]=bwlabel(img_bin);
+imagesc(label);
+
+STATS = regionprops(label, 'Area');
+
+
+%% send data acoorfing to area and color
+
+if  STATS < "nothinng to be picked"
+    send=28;
+else if STATS > " nothing" && STATS < " max"
+        send = 38;
+    else if STATS > " max"
+            send = 48;
+        else
+            send = 58;
+  
+
+
+
+%% Sending back to the bot
+fprintf(s,send)
+
+fclose(s)
+delete(s)
+clear s
+
+
+stop(vid);
+delete(vid);
+clear vid;

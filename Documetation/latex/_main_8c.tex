@@ -1,0 +1,195 @@
+\hypertarget{_main_8c}{
+\section{Desktop/final\_\-grp4/grp4/Group\_\-4/Main.c File Reference}
+\label{_main_8c}\index{Desktop/final\_\-grp4/grp4/Group\_\-4/Main.c@{Desktop/final\_\-grp4/grp4/Group\_\-4/Main.c}}
+}
+{\tt \#include $<$avr/io.h$>$}\par
+{\tt \#include $<$avr/interrupt.h$>$}\par
+{\tt \#include $<$avr/signal.h$>$}\par
+{\tt \#include $<$util/delay.h$>$}\par
+{\tt \#include $<$math.h$>$}\par
+{\tt \#include \char`\"{}cover\_\-field.c\char`\"{}}\par
+{\tt \#include \char`\"{}servo.c\char`\"{}}\par
+{\tt \#include \char`\"{}zigbee.c\char`\"{}}\par
+\subsection*{Functions}
+\begin{CompactItemize}
+\item 
+void \hyperlink{_main_8c_bbbf5055286d09a73b87f57f71dfd0b9}{uart0\_\-init} (void)
+\item 
+\hyperlink{_main_8c_b5f8e79f6ffa3be348924e573e8dcfd1}{SIGNAL} (SIG\_\-USART0\_\-RECV)
+\item 
+void \hyperlink{_main_8c_3539c172bb86e2718ad2f2057e61ee3f}{init\_\-uart0} ()
+\item 
+int \hyperlink{_main_8c_840291bc02cba5474a4cb46a9b9566fe}{main} (void)
+\end{CompactItemize}
+\subsection*{Variables}
+\begin{CompactItemize}
+\item 
+unsigned int \hyperlink{_main_8c_8a55643547e17d2140103ce87b00c2d5}{value\_\-left}
+\item 
+unsigned int \hyperlink{_main_8c_aa3e2ca7bea49d4a6361c611c3cb3b6b}{value\_\-center}
+\item 
+unsigned int \hyperlink{_main_8c_1cf52a533a7e3517b9ab1e245bbc2ea8}{value\_\-right}
+\item 
+unsigned int \hyperlink{_main_8c_8a8a9da82cea05d43993fe9a93be5461}{value\_\-center\_\-left}
+\item 
+unsigned int \hyperlink{_main_8c_c3776d49d4ab2951b53a1b6dfc1bba6a}{value\_\-center\_\-right}
+\item 
+unsigned int \hyperlink{_main_8c_13006074294a071b6c7a268a498f77f7}{temp}
+\item 
+unsigned int \hyperlink{_main_8c_16ff2d8e15ade4948398b0aeb80124a8}{count}
+\item 
+unsigned int \hyperlink{_main_8c_3ea78c5a7129c3e0ea0bb1499e7073ec}{temp1}
+\item 
+unsigned int \hyperlink{_main_8c_129037f727195cac8a1a72706a1446a7}{rev\_\-dis}
+\item 
+unsigned int \hyperlink{_main_8c_b4681c403eaf57e1291c8be24a4c996a}{flag\_\-turn} = 0
+\item 
+unsigned int \hyperlink{_main_8c_d0cf3df56a0ca4ad0befae151ced5008}{flag} = 0
+\item 
+unsigned int \hyperlink{_main_8c_a751e842d2cc527f231cb8c2f9949247}{r\_\-count} = 0
+\item 
+unsigned int \hyperlink{_main_8c_51fcb38a156f09f6ab4e158b25b8aeec}{flag\_\-rx} = 1
+\item 
+unsigned char \hyperlink{_main_8c_433b1c9921d3b90f7c145c781a43f325}{data}
+\item 
+unsigned int \hyperlink{_main_8c_4b9c43d9670ce31d087840b2bcf664f9}{flag\_\-x} = 0
+\end{CompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{_main_8c_3539c172bb86e2718ad2f2057e61ee3f}{
+\index{Main.c@{Main.c}!init\_\-uart0@{init\_\-uart0}}
+\index{init\_\-uart0@{init\_\-uart0}!Main.c@{Main.c}}
+\subsubsection[{init\_\-uart0}]{\setlength{\rightskip}{0pt plus 5cm}void init\_\-uart0 ()}}
+\label{_main_8c_3539c172bb86e2718ad2f2057e61ee3f}
+
+
+\hypertarget{_main_8c_840291bc02cba5474a4cb46a9b9566fe}{
+\index{Main.c@{Main.c}!main@{main}}
+\index{main@{main}!Main.c@{Main.c}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (void)}}
+\label{_main_8c_840291bc02cba5474a4cb46a9b9566fe}
+
+
+\hypertarget{_main_8c_b5f8e79f6ffa3be348924e573e8dcfd1}{
+\index{Main.c@{Main.c}!SIGNAL@{SIGNAL}}
+\index{SIGNAL@{SIGNAL}!Main.c@{Main.c}}
+\subsubsection[{SIGNAL}]{\setlength{\rightskip}{0pt plus 5cm}SIGNAL (SIG\_\-USART0\_\-RECV)}}
+\label{_main_8c_b5f8e79f6ffa3be348924e573e8dcfd1}
+
+
+\hypertarget{_main_8c_bbbf5055286d09a73b87f57f71dfd0b9}{
+\index{Main.c@{Main.c}!uart0\_\-init@{uart0\_\-init}}
+\index{uart0\_\-init@{uart0\_\-init}!Main.c@{Main.c}}
+\subsubsection[{uart0\_\-init}]{\setlength{\rightskip}{0pt plus 5cm}void uart0\_\-init (void)}}
+\label{_main_8c_bbbf5055286d09a73b87f57f71dfd0b9}
+
+
+
+
+\subsection{Variable Documentation}
+\hypertarget{_main_8c_16ff2d8e15ade4948398b0aeb80124a8}{
+\index{Main.c@{Main.c}!count@{count}}
+\index{count@{count}!Main.c@{Main.c}}
+\subsubsection[{count}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf count}}}
+\label{_main_8c_16ff2d8e15ade4948398b0aeb80124a8}
+
+
+\hypertarget{_main_8c_433b1c9921d3b90f7c145c781a43f325}{
+\index{Main.c@{Main.c}!data@{data}}
+\index{data@{data}!Main.c@{Main.c}}
+\subsubsection[{data}]{\setlength{\rightskip}{0pt plus 5cm}unsigned char {\bf data}}}
+\label{_main_8c_433b1c9921d3b90f7c145c781a43f325}
+
+
+\hypertarget{_main_8c_d0cf3df56a0ca4ad0befae151ced5008}{
+\index{Main.c@{Main.c}!flag@{flag}}
+\index{flag@{flag}!Main.c@{Main.c}}
+\subsubsection[{flag}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf flag} = 0}}
+\label{_main_8c_d0cf3df56a0ca4ad0befae151ced5008}
+
+
+\hypertarget{_main_8c_51fcb38a156f09f6ab4e158b25b8aeec}{
+\index{Main.c@{Main.c}!flag\_\-rx@{flag\_\-rx}}
+\index{flag\_\-rx@{flag\_\-rx}!Main.c@{Main.c}}
+\subsubsection[{flag\_\-rx}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf flag\_\-rx} = 1}}
+\label{_main_8c_51fcb38a156f09f6ab4e158b25b8aeec}
+
+
+\hypertarget{_main_8c_b4681c403eaf57e1291c8be24a4c996a}{
+\index{Main.c@{Main.c}!flag\_\-turn@{flag\_\-turn}}
+\index{flag\_\-turn@{flag\_\-turn}!Main.c@{Main.c}}
+\subsubsection[{flag\_\-turn}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf flag\_\-turn} = 0}}
+\label{_main_8c_b4681c403eaf57e1291c8be24a4c996a}
+
+
+\hypertarget{_main_8c_4b9c43d9670ce31d087840b2bcf664f9}{
+\index{Main.c@{Main.c}!flag\_\-x@{flag\_\-x}}
+\index{flag\_\-x@{flag\_\-x}!Main.c@{Main.c}}
+\subsubsection[{flag\_\-x}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf flag\_\-x} = 0}}
+\label{_main_8c_4b9c43d9670ce31d087840b2bcf664f9}
+
+
+\hypertarget{_main_8c_a751e842d2cc527f231cb8c2f9949247}{
+\index{Main.c@{Main.c}!r\_\-count@{r\_\-count}}
+\index{r\_\-count@{r\_\-count}!Main.c@{Main.c}}
+\subsubsection[{r\_\-count}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf r\_\-count} = 0}}
+\label{_main_8c_a751e842d2cc527f231cb8c2f9949247}
+
+
+\hypertarget{_main_8c_129037f727195cac8a1a72706a1446a7}{
+\index{Main.c@{Main.c}!rev\_\-dis@{rev\_\-dis}}
+\index{rev\_\-dis@{rev\_\-dis}!Main.c@{Main.c}}
+\subsubsection[{rev\_\-dis}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf rev\_\-dis}}}
+\label{_main_8c_129037f727195cac8a1a72706a1446a7}
+
+
+\hypertarget{_main_8c_13006074294a071b6c7a268a498f77f7}{
+\index{Main.c@{Main.c}!temp@{temp}}
+\index{temp@{temp}!Main.c@{Main.c}}
+\subsubsection[{temp}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf temp}}}
+\label{_main_8c_13006074294a071b6c7a268a498f77f7}
+
+
+\hypertarget{_main_8c_3ea78c5a7129c3e0ea0bb1499e7073ec}{
+\index{Main.c@{Main.c}!temp1@{temp1}}
+\index{temp1@{temp1}!Main.c@{Main.c}}
+\subsubsection[{temp1}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf temp1}}}
+\label{_main_8c_3ea78c5a7129c3e0ea0bb1499e7073ec}
+
+
+\hypertarget{_main_8c_aa3e2ca7bea49d4a6361c611c3cb3b6b}{
+\index{Main.c@{Main.c}!value\_\-center@{value\_\-center}}
+\index{value\_\-center@{value\_\-center}!Main.c@{Main.c}}
+\subsubsection[{value\_\-center}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf value\_\-center}}}
+\label{_main_8c_aa3e2ca7bea49d4a6361c611c3cb3b6b}
+
+
+\hypertarget{_main_8c_8a8a9da82cea05d43993fe9a93be5461}{
+\index{Main.c@{Main.c}!value\_\-center\_\-left@{value\_\-center\_\-left}}
+\index{value\_\-center\_\-left@{value\_\-center\_\-left}!Main.c@{Main.c}}
+\subsubsection[{value\_\-center\_\-left}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf value\_\-center\_\-left}}}
+\label{_main_8c_8a8a9da82cea05d43993fe9a93be5461}
+
+
+\hypertarget{_main_8c_c3776d49d4ab2951b53a1b6dfc1bba6a}{
+\index{Main.c@{Main.c}!value\_\-center\_\-right@{value\_\-center\_\-right}}
+\index{value\_\-center\_\-right@{value\_\-center\_\-right}!Main.c@{Main.c}}
+\subsubsection[{value\_\-center\_\-right}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf value\_\-center\_\-right}}}
+\label{_main_8c_c3776d49d4ab2951b53a1b6dfc1bba6a}
+
+
+\hypertarget{_main_8c_8a55643547e17d2140103ce87b00c2d5}{
+\index{Main.c@{Main.c}!value\_\-left@{value\_\-left}}
+\index{value\_\-left@{value\_\-left}!Main.c@{Main.c}}
+\subsubsection[{value\_\-left}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf value\_\-left}}}
+\label{_main_8c_8a55643547e17d2140103ce87b00c2d5}
+
+
+\hypertarget{_main_8c_1cf52a533a7e3517b9ab1e245bbc2ea8}{
+\index{Main.c@{Main.c}!value\_\-right@{value\_\-right}}
+\index{value\_\-right@{value\_\-right}!Main.c@{Main.c}}
+\subsubsection[{value\_\-right}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf value\_\-right}}}
+\label{_main_8c_1cf52a533a7e3517b9ab1e245bbc2ea8}
+
+

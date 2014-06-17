@@ -1,0 +1,38 @@
+s=serial('COM26');
+fopen(s);
+get(s,{'STATUS','Type'});
+
+s.ReadAsyncMode = 'continuous';
+fprintf(s,'*IDN?');
+% s.BytesAvailable
+
+
+while(s.BytesAvailable == 0)
+end
+
+out = 0;
+while(out ~= 08)
+out = fscanf(s)
+end
+
+%% image processing logic
+
+
+vid=videoinput('winvideo',2,'RGB24_640x480');
+% set(vid,'ReturnedColorSpace','rgb');
+preview(vid);
+img=getsnapshot(vid);
+figure;
+imshow(img);
+
+%% Sending back to the bot
+fprintf(s,'38')
+
+fclose(s)
+delete(s)
+clear s
+
+
+stop(vid);
+delete(vid);
+clear vid;

@@ -1,0 +1,24 @@
+2nd Oct
+-------
+Bot is covering the entire field according to our algorithm.
+
+
+3rd Oct
+-------
+Objects are being detected by three IR sensors.
+Image processing completed.
+
+
+7th Oct
+-------
+Serial communication done.
+
+
+9th Oct
+-------
+Proper alignment of bot with respect to the detected object.
+
+
+10th Oct
+--------
+Bot returning back to its original position after aligning to the detected object. (Picking and placing yet to be done).

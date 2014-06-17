@@ -1,0 +1,252 @@
+\hypertarget{serial1_8m}{
+\section{Desktop/final\_\-grp4/grp4/Group\_\-4/serial1.m File Reference}
+\label{serial1_8m}\index{Desktop/final\_\-grp4/grp4/Group\_\-4/serial1.m@{Desktop/final\_\-grp4/grp4/Group\_\-4/serial1.m}}
+}
+\subsection*{Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{serial1_8m_51fd345aeb7eafd986a2774ce4bbbb87}{fopen} (\hyperlink{serial1_8m_3691308f2a4c2f6983f2880d32e29c84}{s})
+\item 
+\hyperlink{serial1_8m_40284a65379e371f8d27943644590bf3}{get} (\hyperlink{serial1_8m_3691308f2a4c2f6983f2880d32e29c84}{s},\{'STATUS','Type'\})
+\item 
+\hyperlink{serial1_8m_55444b1849d7489cd7b51fd3c0080132}{fprintf} (\hyperlink{serial1_8m_3691308f2a4c2f6983f2880d32e29c84}{s},'$\ast$IDN?')
+\item 
+\hyperlink{serial1_8m_3691308f2a4c2f6983f2880d32e29c84}{s} BytesAvailable \hyperlink{serial1_8m_e378af7312f38cc5226139b64f90c9f8}{while} (s.BytesAvailable==0) end out=0
+\item 
+\hyperlink{serial1_8m_82e74b5cb5a4147ee83ee959ae7bdc77}{while} (out$\sim$=08) out
+\item 
+\hyperlink{serial1_8m_6f2a32cbb62e9873c5ca624c4dff8c1f}{set} (\hyperlink{serial1_8m_10f09c3c246d79a1d2da3d077441d37c}{vid},'ReturnedColorSpace','rgb')
+\item 
+\hyperlink{serial1_8m_bf7c40d1131d797b0ab2499ec4a6a07d}{preview} (\hyperlink{serial1_8m_10f09c3c246d79a1d2da3d077441d37c}{vid})
+\item 
+\hyperlink{serial1_8m_be625dfa6b0414e64f69e85cbee575fe}{imshow} (\hyperlink{serial1_8m_86d0d51ceb4bc3bd26707520f257a5a4}{img})
+\item 
+\hyperlink{serial1_8m_55abe909cdb0306b6ff2e015b0083b83}{if} ((\hyperlink{serial1_8m_86d0d51ceb4bc3bd26707520f257a5a4}{img}(\hyperlink{serial1_8m_1c73327b2882639bc9f5e416bb3cc7ac}{k}, \hyperlink{serial1_8m_5b54c0a045f179bcbbbc9abcb8b5cd4c}{l}, 1)$>$40 \&\&\hyperlink{serial1_8m_86d0d51ceb4bc3bd26707520f257a5a4}{img}(\hyperlink{serial1_8m_1c73327b2882639bc9f5e416bb3cc7ac}{k}, \hyperlink{serial1_8m_5b54c0a045f179bcbbbc9abcb8b5cd4c}{l}, 1)$<$ 110)\&\&...(\hyperlink{serial1_8m_86d0d51ceb4bc3bd26707520f257a5a4}{img}(\hyperlink{serial1_8m_1c73327b2882639bc9f5e416bb3cc7ac}{k}, \hyperlink{serial1_8m_5b54c0a045f179bcbbbc9abcb8b5cd4c}{l}, 2)$>$=0 \&\&\hyperlink{serial1_8m_86d0d51ceb4bc3bd26707520f257a5a4}{img}(\hyperlink{serial1_8m_1c73327b2882639bc9f5e416bb3cc7ac}{k}, \hyperlink{serial1_8m_5b54c0a045f179bcbbbc9abcb8b5cd4c}{l}, 2)$<$ 30)\&\&...(\hyperlink{serial1_8m_86d0d51ceb4bc3bd26707520f257a5a4}{img}(\hyperlink{serial1_8m_1c73327b2882639bc9f5e416bb3cc7ac}{k}, \hyperlink{serial1_8m_5b54c0a045f179bcbbbc9abcb8b5cd4c}{l}, 3)$>$=0 \&\&\hyperlink{serial1_8m_86d0d51ceb4bc3bd26707520f257a5a4}{img}(\hyperlink{serial1_8m_1c73327b2882639bc9f5e416bb3cc7ac}{k}, \hyperlink{serial1_8m_5b54c0a045f179bcbbbc9abcb8b5cd4c}{l}, 3)$<$ 10)) img\_\-bin(\hyperlink{serial1_8m_1c73327b2882639bc9f5e416bb3cc7ac}{k}
+\item 
+\hyperlink{serial1_8m_337b3fd2bb7dcda2558e97c31e2379f2}{elseif} ((\hyperlink{serial1_8m_86d0d51ceb4bc3bd26707520f257a5a4}{img}(\hyperlink{serial1_8m_1c73327b2882639bc9f5e416bb3cc7ac}{k}, \hyperlink{serial1_8m_5b54c0a045f179bcbbbc9abcb8b5cd4c}{l}, 1)$\sim$=0 \&\&\hyperlink{serial1_8m_86d0d51ceb4bc3bd26707520f257a5a4}{img}(\hyperlink{serial1_8m_1c73327b2882639bc9f5e416bb3cc7ac}{k}, \hyperlink{serial1_8m_5b54c0a045f179bcbbbc9abcb8b5cd4c}{l}, 1)$\sim$=0)\&\&...\%(\hyperlink{serial1_8m_86d0d51ceb4bc3bd26707520f257a5a4}{img}(\hyperlink{serial1_8m_1c73327b2882639bc9f5e416bb3cc7ac}{k}, \hyperlink{serial1_8m_5b54c0a045f179bcbbbc9abcb8b5cd4c}{l}, 2)$\sim$=0 \&\&\hyperlink{serial1_8m_86d0d51ceb4bc3bd26707520f257a5a4}{img}(\hyperlink{serial1_8m_1c73327b2882639bc9f5e416bb3cc7ac}{k}, \hyperlink{serial1_8m_5b54c0a045f179bcbbbc9abcb8b5cd4c}{l}, 2)$\sim$=0)\&\&...\%(\hyperlink{serial1_8m_86d0d51ceb4bc3bd26707520f257a5a4}{img}(\hyperlink{serial1_8m_1c73327b2882639bc9f5e416bb3cc7ac}{k}, \hyperlink{serial1_8m_5b54c0a045f179bcbbbc9abcb8b5cd4c}{l}, 3)$\sim$=0 \&\&\hyperlink{serial1_8m_86d0d51ceb4bc3bd26707520f257a5a4}{img}(\hyperlink{serial1_8m_1c73327b2882639bc9f5e416bb3cc7ac}{k}, \hyperlink{serial1_8m_5b54c0a045f179bcbbbc9abcb8b5cd4c}{l}, 3)$\sim$=0))\%img\_\-bin(\hyperlink{serial1_8m_1c73327b2882639bc9f5e416bb3cc7ac}{k}
+\item 
+else \hyperlink{serial1_8m_81ee3bb89df79713f7571ef395323f67}{img\_\-bin} (\hyperlink{serial1_8m_1c73327b2882639bc9f5e416bb3cc7ac}{k}, \hyperlink{serial1_8m_5b54c0a045f179bcbbbc9abcb8b5cd4c}{l})=0
+\item 
+end end end \hyperlink{serial1_8m_efc9a2616df5ee258e2bc2e8b32f38aa}{imshow} (img\_\-bin)
+\item 
+\hyperlink{serial1_8m_a089b7173ae63d090d6f839a8e9d400e}{imagesc} (label)
+\item 
+end end end Sending back to the bot \hyperlink{serial1_8m_a2d5caac413f95c52bee8e71e5446f53}{fprintf} (\hyperlink{serial1_8m_3691308f2a4c2f6983f2880d32e29c84}{s}, \hyperlink{serial1_8m_5d42c13f5390832201bb1d4264095a3e}{send}) fclose(\hyperlink{serial1_8m_3691308f2a4c2f6983f2880d32e29c84}{s}) delete(\hyperlink{serial1_8m_3691308f2a4c2f6983f2880d32e29c84}{s}) clear \hyperlink{serial1_8m_3691308f2a4c2f6983f2880d32e29c84}{s} stop(\hyperlink{serial1_8m_10f09c3c246d79a1d2da3d077441d37c}{vid})
+\item 
+\hyperlink{serial1_8m_efa7276e3fc616294796ae5d7e358620}{delete} (\hyperlink{serial1_8m_10f09c3c246d79a1d2da3d077441d37c}{vid})
+\end{CompactItemize}
+\subsection*{Variables}
+\begin{CompactItemize}
+\item 
+\hyperlink{serial1_8m_3691308f2a4c2f6983f2880d32e29c84}{s} = serial('COM26')
+\item 
+\hyperlink{serial1_8m_3691308f2a4c2f6983f2880d32e29c84}{s} \hyperlink{serial1_8m_f72aec3d9c5df014041ed383f603e813}{ReadAsyncMode} = 'continuous'
+\item 
+\hyperlink{serial1_8m_86d0d51ceb4bc3bd26707520f257a5a4}{img} = getsnapshot(\hyperlink{serial1_8m_10f09c3c246d79a1d2da3d077441d37c}{vid})
+\item 
+\hyperlink{serial1_8m_391e34f2de441d79152a7b3d6e4c9c86}{figure}
+\item 
+\hyperlink{serial1_8m_bf2bc2545a4a5f5683d9ef3ed0d977e0}{j} = size(\hyperlink{serial1_8m_86d0d51ceb4bc3bd26707520f257a5a4}{img})
+\item 
+for \hyperlink{serial1_8m_1c73327b2882639bc9f5e416bb3cc7ac}{k}
+\item 
+\hyperlink{serial1_8m_5b54c0a045f179bcbbbc9abcb8b5cd4c}{l} = 1
+\item 
+\hyperlink{serial1_8m_976af4e380208a4d8d4126a2a9373522}{STATS} = regionprops(label, 'Area')
+\item 
+\hyperlink{serial1_8m_5d42c13f5390832201bb1d4264095a3e}{send} \hyperlink{_main_8c_433b1c9921d3b90f7c145c781a43f325}{data} acoorfing to area and color if STATS$<$ \char`\"{}nothinng to be picked\char`\"{}send=28;else if STATS $>$ nothing \&\&STATS$<$ \char`\"{} max\char`\"{}send=38;else if STATS $>$ max \hyperlink{serial1_8m_5d42c13f5390832201bb1d4264095a3e}{send} = 48
+\item 
+clear \hyperlink{serial1_8m_10f09c3c246d79a1d2da3d077441d37c}{vid}
+\end{CompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{serial1_8m_efa7276e3fc616294796ae5d7e358620}{
+\index{serial1.m@{serial1.m}!delete@{delete}}
+\index{delete@{delete}!serial1.m@{serial1.m}}
+\subsubsection[{delete}]{\setlength{\rightskip}{0pt plus 5cm}delete ({\bf vid})}}
+\label{serial1_8m_efa7276e3fc616294796ae5d7e358620}
+
+
+\hypertarget{serial1_8m_337b3fd2bb7dcda2558e97c31e2379f2}{
+\index{serial1.m@{serial1.m}!elseif@{elseif}}
+\index{elseif@{elseif}!serial1.m@{serial1.m}}
+\subsubsection[{elseif}]{\setlength{\rightskip}{0pt plus 5cm}elseif (({\bf img}({\bf k}, {\bf l}, 1)$\sim$=0 \&\&{\bf img}({\bf k}, {\bf l}, 1)$\sim$=0)\&\&...\%({\bf img}({\bf k}, {\bf l}, 2)$\sim$=0 \&\&{\bf img}({\bf k}, {\bf l}, 2)$\sim$=0)\&\&...\%({\bf img}({\bf k}, {\bf l}, 3)$\sim$=0 \&\&{\bf img}({\bf k}, {\bf l}, 3)$\sim$=0))}}
+\label{serial1_8m_337b3fd2bb7dcda2558e97c31e2379f2}
+
+
+\hypertarget{serial1_8m_51fd345aeb7eafd986a2774ce4bbbb87}{
+\index{serial1.m@{serial1.m}!fopen@{fopen}}
+\index{fopen@{fopen}!serial1.m@{serial1.m}}
+\subsubsection[{fopen}]{\setlength{\rightskip}{0pt plus 5cm}fopen ({\bf s})}}
+\label{serial1_8m_51fd345aeb7eafd986a2774ce4bbbb87}
+
+
+\hypertarget{serial1_8m_a2d5caac413f95c52bee8e71e5446f53}{
+\index{serial1.m@{serial1.m}!fprintf@{fprintf}}
+\index{fprintf@{fprintf}!serial1.m@{serial1.m}}
+\subsubsection[{fprintf}]{\setlength{\rightskip}{0pt plus 5cm}end end end Sending back to the bot fprintf ({\bf s}, \/  {\bf send})}}
+\label{serial1_8m_a2d5caac413f95c52bee8e71e5446f53}
+
+
+\hypertarget{serial1_8m_55444b1849d7489cd7b51fd3c0080132}{
+\index{serial1.m@{serial1.m}!fprintf@{fprintf}}
+\index{fprintf@{fprintf}!serial1.m@{serial1.m}}
+\subsubsection[{fprintf}]{\setlength{\rightskip}{0pt plus 5cm}fprintf ({\bf s}, \/  '$\ast$IDN?')}}
+\label{serial1_8m_55444b1849d7489cd7b51fd3c0080132}
+
+
+\hypertarget{serial1_8m_40284a65379e371f8d27943644590bf3}{
+\index{serial1.m@{serial1.m}!get@{get}}
+\index{get@{get}!serial1.m@{serial1.m}}
+\subsubsection[{get}]{\setlength{\rightskip}{0pt plus 5cm}get ({\bf s})}}
+\label{serial1_8m_40284a65379e371f8d27943644590bf3}
+
+
+\hypertarget{serial1_8m_55abe909cdb0306b6ff2e015b0083b83}{
+\index{serial1.m@{serial1.m}!if@{if}}
+\index{if@{if}!serial1.m@{serial1.m}}
+\subsubsection[{if}]{\setlength{\rightskip}{0pt plus 5cm}if (({\bf img}({\bf k}, {\bf l}, 1)$>$40 \&\&{\bf img}({\bf k}, {\bf l}, 1)$<$ 110)\&\&...({\bf img}({\bf k}, {\bf l}, 2)$>$=0 \&\&{\bf img}({\bf k}, {\bf l}, 2)$<$ 30)\&\&...({\bf img}({\bf k}, {\bf l}, 3)$>$=0 \&\&{\bf img}({\bf k}, {\bf l}, 3)$<$ 10))}}
+\label{serial1_8m_55abe909cdb0306b6ff2e015b0083b83}
+
+
+\hypertarget{serial1_8m_a089b7173ae63d090d6f839a8e9d400e}{
+\index{serial1.m@{serial1.m}!imagesc@{imagesc}}
+\index{imagesc@{imagesc}!serial1.m@{serial1.m}}
+\subsubsection[{imagesc}]{\setlength{\rightskip}{0pt plus 5cm}imagesc (label)}}
+\label{serial1_8m_a089b7173ae63d090d6f839a8e9d400e}
+
+
+\hypertarget{serial1_8m_81ee3bb89df79713f7571ef395323f67}{
+\index{serial1.m@{serial1.m}!img\_\-bin@{img\_\-bin}}
+\index{img\_\-bin@{img\_\-bin}!serial1.m@{serial1.m}}
+\subsubsection[{img\_\-bin}]{\setlength{\rightskip}{0pt plus 5cm}else img\_\-bin ({\bf k}, \/  {\bf l})\hspace{0.3cm}{\tt  \mbox{[}pure virtual\mbox{]}}}}
+\label{serial1_8m_81ee3bb89df79713f7571ef395323f67}
+
+
+\hypertarget{serial1_8m_efc9a2616df5ee258e2bc2e8b32f38aa}{
+\index{serial1.m@{serial1.m}!imshow@{imshow}}
+\index{imshow@{imshow}!serial1.m@{serial1.m}}
+\subsubsection[{imshow}]{\setlength{\rightskip}{0pt plus 5cm}end end end imshow (img\_\-bin)}}
+\label{serial1_8m_efc9a2616df5ee258e2bc2e8b32f38aa}
+
+
+\hypertarget{serial1_8m_be625dfa6b0414e64f69e85cbee575fe}{
+\index{serial1.m@{serial1.m}!imshow@{imshow}}
+\index{imshow@{imshow}!serial1.m@{serial1.m}}
+\subsubsection[{imshow}]{\setlength{\rightskip}{0pt plus 5cm}imshow ({\bf img})}}
+\label{serial1_8m_be625dfa6b0414e64f69e85cbee575fe}
+
+
+\hypertarget{serial1_8m_bf7c40d1131d797b0ab2499ec4a6a07d}{
+\index{serial1.m@{serial1.m}!preview@{preview}}
+\index{preview@{preview}!serial1.m@{serial1.m}}
+\subsubsection[{preview}]{\setlength{\rightskip}{0pt plus 5cm}preview ({\bf vid})}}
+\label{serial1_8m_bf7c40d1131d797b0ab2499ec4a6a07d}
+
+
+\hypertarget{serial1_8m_6f2a32cbb62e9873c5ca624c4dff8c1f}{
+\index{serial1.m@{serial1.m}!set@{set}}
+\index{set@{set}!serial1.m@{serial1.m}}
+\subsubsection[{set}]{\setlength{\rightskip}{0pt plus 5cm}set ({\bf vid}, \/  'ReturnedColorSpace', \/  'rgb')}}
+\label{serial1_8m_6f2a32cbb62e9873c5ca624c4dff8c1f}
+
+
+\hypertarget{serial1_8m_82e74b5cb5a4147ee83ee959ae7bdc77}{
+\index{serial1.m@{serial1.m}!while@{while}}
+\index{while@{while}!serial1.m@{serial1.m}}
+\subsubsection[{while}]{\setlength{\rightskip}{0pt plus 5cm}while (out$\sim$ = {\tt 08})}}
+\label{serial1_8m_82e74b5cb5a4147ee83ee959ae7bdc77}
+
+
+\hypertarget{serial1_8m_e378af7312f38cc5226139b64f90c9f8}{
+\index{serial1.m@{serial1.m}!while@{while}}
+\index{while@{while}!serial1.m@{serial1.m}}
+\subsubsection[{while}]{\setlength{\rightskip}{0pt plus 5cm}{\bf s} BytesAvailable while (s. {\em BytesAvailable} = {\tt =0})\hspace{0.3cm}{\tt  \mbox{[}pure virtual\mbox{]}}}}
+\label{serial1_8m_e378af7312f38cc5226139b64f90c9f8}
+
+
+
+
+\subsection{Variable Documentation}
+\hypertarget{serial1_8m_391e34f2de441d79152a7b3d6e4c9c86}{
+\index{serial1.m@{serial1.m}!figure@{figure}}
+\index{figure@{figure}!serial1.m@{serial1.m}}
+\subsubsection[{figure}]{\setlength{\rightskip}{0pt plus 5cm}{\bf figure}}}
+\label{serial1_8m_391e34f2de441d79152a7b3d6e4c9c86}
+
+
+\hypertarget{serial1_8m_86d0d51ceb4bc3bd26707520f257a5a4}{
+\index{serial1.m@{serial1.m}!img@{img}}
+\index{img@{img}!serial1.m@{serial1.m}}
+\subsubsection[{img}]{\setlength{\rightskip}{0pt plus 5cm}{\bf img} = getsnapshot({\bf vid})}}
+\label{serial1_8m_86d0d51ceb4bc3bd26707520f257a5a4}
+
+
+\hypertarget{serial1_8m_bf2bc2545a4a5f5683d9ef3ed0d977e0}{
+\index{serial1.m@{serial1.m}!j@{j}}
+\index{j@{j}!serial1.m@{serial1.m}}
+\subsubsection[{j}]{\setlength{\rightskip}{0pt plus 5cm}{\bf j} = size({\bf img})}}
+\label{serial1_8m_bf2bc2545a4a5f5683d9ef3ed0d977e0}
+
+
+\hypertarget{serial1_8m_1c73327b2882639bc9f5e416bb3cc7ac}{
+\index{serial1.m@{serial1.m}!k@{k}}
+\index{k@{k}!serial1.m@{serial1.m}}
+\subsubsection[{k}]{\setlength{\rightskip}{0pt plus 5cm}for {\bf k}}}
+\label{serial1_8m_1c73327b2882639bc9f5e416bb3cc7ac}
+
+
+\textbf{Initial value:}
+
+\begin{Code}\begin{verbatim}1:j(1)
+    for l=1:j(2)
+        
+%                 if((img(k,l,1)>160) &&...
+%                 (img(k,l,2)>160))
+%                 
+%             img_bin(k,l)=1
+\end{verbatim}
+\end{Code}
+\hypertarget{serial1_8m_5b54c0a045f179bcbbbc9abcb8b5cd4c}{
+\index{serial1.m@{serial1.m}!l@{l}}
+\index{l@{l}!serial1.m@{serial1.m}}
+\subsubsection[{l}]{\setlength{\rightskip}{0pt plus 5cm}{\bf l} = 1}}
+\label{serial1_8m_5b54c0a045f179bcbbbc9abcb8b5cd4c}
+
+
+\hypertarget{serial1_8m_f72aec3d9c5df014041ed383f603e813}{
+\index{serial1.m@{serial1.m}!ReadAsyncMode@{ReadAsyncMode}}
+\index{ReadAsyncMode@{ReadAsyncMode}!serial1.m@{serial1.m}}
+\subsubsection[{ReadAsyncMode}]{\setlength{\rightskip}{0pt plus 5cm}{\bf s} {\bf ReadAsyncMode} = 'continuous'}}
+\label{serial1_8m_f72aec3d9c5df014041ed383f603e813}
+
+
+\hypertarget{serial1_8m_3691308f2a4c2f6983f2880d32e29c84}{
+\index{serial1.m@{serial1.m}!s@{s}}
+\index{s@{s}!serial1.m@{serial1.m}}
+\subsubsection[{s}]{\setlength{\rightskip}{0pt plus 5cm}{\bf s} = serial('COM26')}}
+\label{serial1_8m_3691308f2a4c2f6983f2880d32e29c84}
+
+
+\hypertarget{serial1_8m_5d42c13f5390832201bb1d4264095a3e}{
+\index{serial1.m@{serial1.m}!send@{send}}
+\index{send@{send}!serial1.m@{serial1.m}}
+\subsubsection[{send}]{\setlength{\rightskip}{0pt plus 5cm}else {\bf send} = 48}}
+\label{serial1_8m_5d42c13f5390832201bb1d4264095a3e}
+
+
+\hypertarget{serial1_8m_976af4e380208a4d8d4126a2a9373522}{
+\index{serial1.m@{serial1.m}!STATS@{STATS}}
+\index{STATS@{STATS}!serial1.m@{serial1.m}}
+\subsubsection[{STATS}]{\setlength{\rightskip}{0pt plus 5cm}STATS = regionprops(label, 'Area')}}
+\label{serial1_8m_976af4e380208a4d8d4126a2a9373522}
+
+
+\hypertarget{serial1_8m_10f09c3c246d79a1d2da3d077441d37c}{
+\index{serial1.m@{serial1.m}!vid@{vid}}
+\index{vid@{vid}!serial1.m@{serial1.m}}
+\subsubsection[{vid}]{\setlength{\rightskip}{0pt plus 5cm}clear {\bf vid}}}
+\label{serial1_8m_10f09c3c246d79a1d2da3d077441d37c}
+
+

@@ -1,0 +1,121 @@
+\hypertarget{servo_8c}{
+\section{Desktop/final\_\-grp4/grp4/Group\_\-4/servo.c File Reference}
+\label{servo_8c}\index{Desktop/final\_\-grp4/grp4/Group\_\-4/servo.c@{Desktop/final\_\-grp4/grp4/Group\_\-4/servo.c}}
+}
+{\tt \#include $<$avr/io.h$>$}\par
+{\tt \#include $<$avr/interrupt.h$>$}\par
+{\tt \#include $<$util/delay.h$>$}\par
+\subsection*{Functions}
+\begin{CompactItemize}
+\item 
+void \hyperlink{servo_8c_f87425963403c39dd2a5686722662e1b}{servo1\_\-pin\_\-config} (void)
+\item 
+void \hyperlink{servo_8c_9cbd58ccc49c66f6691fc3e8a4e06c07}{servo2\_\-pin\_\-config} (void)
+\item 
+void \hyperlink{servo_8c_ea7136b3f5f3dee0bba462ad740018e0}{servo3\_\-pin\_\-config} (void)
+\item 
+void \hyperlink{servo_8c_256843c6660ec4ab6e146251f6c4d5a8}{port\_\-init\_\-servo} (void)
+\item 
+void \hyperlink{servo_8c_968c314be24f7043eeff034ebf7c4a03}{timer1\_\-init} (void)
+\item 
+void \hyperlink{servo_8c_c8da0ac4d127354bc1365df5abf84287}{init\_\-devices\_\-servo} (void)
+\item 
+void \hyperlink{servo_8c_5e83e38113e61aa98a5737499e18a31b}{servo\_\-1} (unsigned char degrees)
+\item 
+void \hyperlink{servo_8c_581d9af2c6c9d23ca521f637075e1bc1}{servo\_\-2} (unsigned char degrees)
+\item 
+void \hyperlink{servo_8c_13cace908a54e6c7b6e7ff259b2b1d90}{servo\_\-3} (unsigned char degrees)
+\item 
+void \hyperlink{servo_8c_6c7ed6efeeb194c0a0c511380a31a2e5}{servo\_\-1\_\-free} (void)
+\item 
+void \hyperlink{servo_8c_da43b85d1e8c8343f99fcdaa12b71c3e}{servo\_\-2\_\-free} (void)
+\item 
+void \hyperlink{servo_8c_24305cafe8f6103e8434f56aa0df538a}{servo\_\-3\_\-free} (void)
+\end{CompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{servo_8c_c8da0ac4d127354bc1365df5abf84287}{
+\index{servo.c@{servo.c}!init\_\-devices\_\-servo@{init\_\-devices\_\-servo}}
+\index{init\_\-devices\_\-servo@{init\_\-devices\_\-servo}!servo.c@{servo.c}}
+\subsubsection[{init\_\-devices\_\-servo}]{\setlength{\rightskip}{0pt plus 5cm}void init\_\-devices\_\-servo (void)}}
+\label{servo_8c_c8da0ac4d127354bc1365df5abf84287}
+
+
+\hypertarget{servo_8c_256843c6660ec4ab6e146251f6c4d5a8}{
+\index{servo.c@{servo.c}!port\_\-init\_\-servo@{port\_\-init\_\-servo}}
+\index{port\_\-init\_\-servo@{port\_\-init\_\-servo}!servo.c@{servo.c}}
+\subsubsection[{port\_\-init\_\-servo}]{\setlength{\rightskip}{0pt plus 5cm}void port\_\-init\_\-servo (void)}}
+\label{servo_8c_256843c6660ec4ab6e146251f6c4d5a8}
+
+
+\hypertarget{servo_8c_f87425963403c39dd2a5686722662e1b}{
+\index{servo.c@{servo.c}!servo1\_\-pin\_\-config@{servo1\_\-pin\_\-config}}
+\index{servo1\_\-pin\_\-config@{servo1\_\-pin\_\-config}!servo.c@{servo.c}}
+\subsubsection[{servo1\_\-pin\_\-config}]{\setlength{\rightskip}{0pt plus 5cm}void servo1\_\-pin\_\-config (void)}}
+\label{servo_8c_f87425963403c39dd2a5686722662e1b}
+
+
+\hypertarget{servo_8c_9cbd58ccc49c66f6691fc3e8a4e06c07}{
+\index{servo.c@{servo.c}!servo2\_\-pin\_\-config@{servo2\_\-pin\_\-config}}
+\index{servo2\_\-pin\_\-config@{servo2\_\-pin\_\-config}!servo.c@{servo.c}}
+\subsubsection[{servo2\_\-pin\_\-config}]{\setlength{\rightskip}{0pt plus 5cm}void servo2\_\-pin\_\-config (void)}}
+\label{servo_8c_9cbd58ccc49c66f6691fc3e8a4e06c07}
+
+
+\hypertarget{servo_8c_ea7136b3f5f3dee0bba462ad740018e0}{
+\index{servo.c@{servo.c}!servo3\_\-pin\_\-config@{servo3\_\-pin\_\-config}}
+\index{servo3\_\-pin\_\-config@{servo3\_\-pin\_\-config}!servo.c@{servo.c}}
+\subsubsection[{servo3\_\-pin\_\-config}]{\setlength{\rightskip}{0pt plus 5cm}void servo3\_\-pin\_\-config (void)}}
+\label{servo_8c_ea7136b3f5f3dee0bba462ad740018e0}
+
+
+\hypertarget{servo_8c_5e83e38113e61aa98a5737499e18a31b}{
+\index{servo.c@{servo.c}!servo\_\-1@{servo\_\-1}}
+\index{servo\_\-1@{servo\_\-1}!servo.c@{servo.c}}
+\subsubsection[{servo\_\-1}]{\setlength{\rightskip}{0pt plus 5cm}void servo\_\-1 (unsigned char {\em degrees})}}
+\label{servo_8c_5e83e38113e61aa98a5737499e18a31b}
+
+
+\hypertarget{servo_8c_6c7ed6efeeb194c0a0c511380a31a2e5}{
+\index{servo.c@{servo.c}!servo\_\-1\_\-free@{servo\_\-1\_\-free}}
+\index{servo\_\-1\_\-free@{servo\_\-1\_\-free}!servo.c@{servo.c}}
+\subsubsection[{servo\_\-1\_\-free}]{\setlength{\rightskip}{0pt plus 5cm}void servo\_\-1\_\-free (void)}}
+\label{servo_8c_6c7ed6efeeb194c0a0c511380a31a2e5}
+
+
+\hypertarget{servo_8c_581d9af2c6c9d23ca521f637075e1bc1}{
+\index{servo.c@{servo.c}!servo\_\-2@{servo\_\-2}}
+\index{servo\_\-2@{servo\_\-2}!servo.c@{servo.c}}
+\subsubsection[{servo\_\-2}]{\setlength{\rightskip}{0pt plus 5cm}void servo\_\-2 (unsigned char {\em degrees})}}
+\label{servo_8c_581d9af2c6c9d23ca521f637075e1bc1}
+
+
+\hypertarget{servo_8c_da43b85d1e8c8343f99fcdaa12b71c3e}{
+\index{servo.c@{servo.c}!servo\_\-2\_\-free@{servo\_\-2\_\-free}}
+\index{servo\_\-2\_\-free@{servo\_\-2\_\-free}!servo.c@{servo.c}}
+\subsubsection[{servo\_\-2\_\-free}]{\setlength{\rightskip}{0pt plus 5cm}void servo\_\-2\_\-free (void)}}
+\label{servo_8c_da43b85d1e8c8343f99fcdaa12b71c3e}
+
+
+\hypertarget{servo_8c_13cace908a54e6c7b6e7ff259b2b1d90}{
+\index{servo.c@{servo.c}!servo\_\-3@{servo\_\-3}}
+\index{servo\_\-3@{servo\_\-3}!servo.c@{servo.c}}
+\subsubsection[{servo\_\-3}]{\setlength{\rightskip}{0pt plus 5cm}void servo\_\-3 (unsigned char {\em degrees})}}
+\label{servo_8c_13cace908a54e6c7b6e7ff259b2b1d90}
+
+
+\hypertarget{servo_8c_24305cafe8f6103e8434f56aa0df538a}{
+\index{servo.c@{servo.c}!servo\_\-3\_\-free@{servo\_\-3\_\-free}}
+\index{servo\_\-3\_\-free@{servo\_\-3\_\-free}!servo.c@{servo.c}}
+\subsubsection[{servo\_\-3\_\-free}]{\setlength{\rightskip}{0pt plus 5cm}void servo\_\-3\_\-free (void)}}
+\label{servo_8c_24305cafe8f6103e8434f56aa0df538a}
+
+
+\hypertarget{servo_8c_968c314be24f7043eeff034ebf7c4a03}{
+\index{servo.c@{servo.c}!timer1\_\-init@{timer1\_\-init}}
+\index{timer1\_\-init@{timer1\_\-init}!servo.c@{servo.c}}
+\subsubsection[{timer1\_\-init}]{\setlength{\rightskip}{0pt plus 5cm}void timer1\_\-init (void)}}
+\label{servo_8c_968c314be24f7043eeff034ebf7c4a03}
+
+

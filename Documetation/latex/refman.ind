@@ -1,0 +1,568 @@
+\begin{theindex}
+
+  \item {ADC\_\discretionary {-}{}{}Conversion}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {adc\_\discretionary {-}{}{}init}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {adc\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {adc\_\discretionary {-}{}{}reading}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {ADC\_\discretionary {-}{}{}Value}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {all}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{10}
+  \item {ANGLE\_\discretionary {-}{}{}ROTATE}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+
+  \indexspace
+
+  \item {BATT\_\discretionary {-}{}{}V}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {BATT\_\discretionary {-}{}{}Voltage}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+
+  \indexspace
+
+  \item {cbit}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {clc}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{10}
+  \item {count}
+    \subitem {latest\_\discretionary {-}{}{}white.m}, \hyperpage{13}
+    \subitem {Main.c}, \hyperpage{16}
+  \item {count\_\discretionary {-}{}{}num}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{10}
+  \item {cover\_\discretionary {-}{}{}field.c}
+    \subitem {ADC\_\discretionary {-}{}{}Conversion}, \hyperpage{7}
+    \subitem {adc\_\discretionary {-}{}{}init}, \hyperpage{7}
+    \subitem {adc\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config}, 
+		\hyperpage{7}
+    \subitem {adc\_\discretionary {-}{}{}reading}, \hyperpage{7}
+    \subitem {ADC\_\discretionary {-}{}{}Value}, \hyperpage{7}
+    \subitem {ANGLE\_\discretionary {-}{}{}ROTATE}, \hyperpage{7}
+    \subitem {BATT\_\discretionary {-}{}{}V}, \hyperpage{7}
+    \subitem {BATT\_\discretionary {-}{}{}Voltage}, \hyperpage{7}
+    \subitem {cbit}, \hyperpage{7}
+    \subitem {distance}, \hyperpage{7}
+    \subitem {EN}, \hyperpage{7}
+    \subitem {FCPU}, \hyperpage{7}
+    \subitem {FORWARD}, \hyperpage{7}
+    \subitem {hundred}, \hyperpage{7}
+    \subitem {i}, \hyperpage{7}
+    \subitem {init\_\discretionary {-}{}{}devices}, \hyperpage{7}
+    \subitem {INIT\_\discretionary {-}{}{}INTERRUPT}, \hyperpage{7}
+    \subitem {INIT\_\discretionary {-}{}{}PORTS}, \hyperpage{7}
+    \subitem {init\_\discretionary {-}{}{}ports}, \hyperpage{7}
+    \subitem {ISR}, \hyperpage{7}
+    \subitem {lcd\_\discretionary {-}{}{}cursor}, \hyperpage{7}
+    \subitem {lcd\_\discretionary {-}{}{}home}, \hyperpage{7}
+    \subitem {lcd\_\discretionary {-}{}{}init}, \hyperpage{7}
+    \subitem {lcd\_\discretionary {-}{}{}port}, \hyperpage{7}
+    \subitem {lcd\_\discretionary {-}{}{}port\_\discretionary {-}{}{}config}, 
+		\hyperpage{7}
+    \subitem {lcd\_\discretionary {-}{}{}print}, \hyperpage{7}
+    \subitem {lcd\_\discretionary {-}{}{}reset\_\discretionary {-}{}{}4bit}, 
+		\hyperpage{7}
+    \subitem {lcd\_\discretionary {-}{}{}set\_\discretionary {-}{}{}4bit}, 
+		\hyperpage{7}
+    \subitem {lcd\_\discretionary {-}{}{}string}, \hyperpage{7}
+    \subitem {lcd\_\discretionary {-}{}{}wr\_\discretionary {-}{}{}char}, 
+		\hyperpage{7}
+    \subitem {lcd\_\discretionary {-}{}{}wr\_\discretionary {-}{}{}command}, 
+		\hyperpage{7}
+    \subitem {LEFT\_\discretionary {-}{}{}REVERSE}, \hyperpage{7}
+    \subitem {Left\_\discretionary {-}{}{}Speed}, \hyperpage{7}
+    \subitem {LEFT\_\discretionary {-}{}{}TURN}, \hyperpage{7}
+    \subitem {LEFT\_\discretionary {-}{}{}TURN\_\discretionary {-}{}{}SOFT}, 
+		\hyperpage{7}
+    \subitem {LINEAR\_\discretionary {-}{}{}DISTANCE}, \hyperpage{7}
+    \subitem {million}, \hyperpage{7}
+    \subitem {port\_\discretionary {-}{}{}init}, \hyperpage{7}
+    \subitem {REVERSE}, \hyperpage{7}
+    \subitem {RIGHT\_\discretionary {-}{}{}REVERSE}, \hyperpage{7}
+    \subitem {Right\_\discretionary {-}{}{}Speed}, \hyperpage{7}
+    \subitem {RIGHT\_\discretionary {-}{}{}TURN}, \hyperpage{7}
+    \subitem {RIGHT\_\discretionary {-}{}{}TURN\_\discretionary {-}{}{}SOFT}, 
+		\hyperpage{7}
+    \subitem {RS}, \hyperpage{7}
+    \subitem {RW}, \hyperpage{7}
+    \subitem {sbit}, \hyperpage{7}
+    \subitem {shaftCountLeft}, \hyperpage{7}
+    \subitem {shaftCountRight}, \hyperpage{7}
+    \subitem {sharp\_\discretionary {-}{}{}center}, \hyperpage{7}
+    \subitem {sharp\_\discretionary {-}{}{}center\_\discretionary {-}{}{}left}, 
+		\hyperpage{7}
+    \subitem {sharp\_\discretionary {-}{}{}center\_\discretionary {-}{}{}right}, 
+		\hyperpage{7}
+    \subitem {Sharp\_\discretionary {-}{}{}GP2D12\_\discretionary {-}{}{}estimation}, 
+		\hyperpage{7}
+    \subitem {sharp\_\discretionary {-}{}{}left}, \hyperpage{7}
+    \subitem {sharp\_\discretionary {-}{}{}right}, \hyperpage{7}
+    \subitem {STOP}, \hyperpage{7}
+    \subitem {temp}, \hyperpage{7}
+    \subitem {tens}, \hyperpage{7}
+    \subitem {thousand}, \hyperpage{7}
+    \subitem {timer5\_\discretionary {-}{}{}init}, \hyperpage{7}
+    \subitem {unit}, \hyperpage{7}
+    \subitem {value\_\discretionary {-}{}{}center}, \hyperpage{7}
+    \subitem {value\_\discretionary {-}{}{}left}, \hyperpage{7}
+    \subitem {value\_\discretionary {-}{}{}right}, \hyperpage{7}
+    \subitem {white\_\discretionary {-}{}{}1}, \hyperpage{7}
+    \subitem {white\_\discretionary {-}{}{}2}, \hyperpage{7}
+    \subitem {white\_\discretionary {-}{}{}3}, \hyperpage{7}
+
+  \indexspace
+
+  \item {data}
+    \subitem {Main.c}, \hyperpage{16}
+  \item {delete}
+    \subitem {latest\_\discretionary {-}{}{}white.m}, \hyperpage{13}
+    \subitem {serial1.m}, \hyperpage{18}
+  \item {Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/cover\_\discretionary {-}{}{}field.c}, 
+		\hyperpage{3}
+  \item {Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{8}
+  \item {Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/latest\_\discretionary {-}{}{}white.m}, 
+		\hyperpage{12}
+  \item {Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/Main.c}, 
+		\hyperpage{15}
+  \item {Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/serial1.m}, 
+		\hyperpage{17}
+  \item {Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/servo.c}, 
+		\hyperpage{20}
+  \item {Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/zigbee.c}, 
+		\hyperpage{22}
+  \item {distance}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+
+  \indexspace
+
+  \item {elseif}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{10}
+    \subitem {latest\_\discretionary {-}{}{}white.m}, \hyperpage{13}
+    \subitem {serial1.m}, \hyperpage{18}
+  \item {EN}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+
+  \indexspace
+
+  \item {FCPU}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {figure}
+    \subitem {latest\_\discretionary {-}{}{}white.m}, \hyperpage{13}
+    \subitem {serial1.m}, \hyperpage{18}
+  \item {flag}
+    \subitem {Main.c}, \hyperpage{16}
+  \item {flag\_\discretionary {-}{}{}rx}
+    \subitem {Main.c}, \hyperpage{16}
+  \item {flag\_\discretionary {-}{}{}turn}
+    \subitem {Main.c}, \hyperpage{16}
+  \item {flag\_\discretionary {-}{}{}x}
+    \subitem {Main.c}, \hyperpage{16}
+  \item {fopen}
+    \subitem {serial1.m}, \hyperpage{18}
+  \item {FORWARD}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {fprintf}
+    \subitem {serial1.m}, \hyperpage{18}
+
+  \indexspace
+
+  \item {get}
+    \subitem {serial1.m}, \hyperpage{18}
+  \item {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}
+    \subitem {all}, \hyperpage{10}
+    \subitem {clc}, \hyperpage{10}
+    \subitem {count\_\discretionary {-}{}{}num}, \hyperpage{10}
+    \subitem {elseif}, \hyperpage{10}
+    \subitem {i}, \hyperpage{10}
+    \subitem {if}, \hyperpage{10}
+    \subitem {imagesc}, \hyperpage{10}
+    \subitem {img}, \hyperpage{10}
+    \subitem {img1}, \hyperpage{10}
+    \subitem {img\_\discretionary {-}{}{}bin}, \hyperpage{10}
+    \subitem {imshow}, \hyperpage{10}
+    \subitem {indent}, \hyperpage{10}
+    \subitem {indicator}, \hyperpage{10}
+    \subitem {j}, \hyperpage{10}
+    \subitem {k}, \hyperpage{10}
+    \subitem {l}, \hyperpage{11}
+    \subitem {m}, \hyperpage{11}
+    \subitem {num1}, \hyperpage{11}
+    \subitem {obj}, \hyperpage{10}
+    \subitem {STATS}, \hyperpage{10, 11}
+    \subitem {while}, \hyperpage{10}
+
+  \indexspace
+
+  \item {hundred}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+
+  \indexspace
+
+  \item {i}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{10}
+  \item {if}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{10}
+    \subitem {latest\_\discretionary {-}{}{}white.m}, \hyperpage{13}
+    \subitem {serial1.m}, \hyperpage{18}
+  \item {imagesc}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{10}
+    \subitem {latest\_\discretionary {-}{}{}white.m}, \hyperpage{13}
+    \subitem {serial1.m}, \hyperpage{18}
+  \item {img}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{10}
+    \subitem {latest\_\discretionary {-}{}{}white.m}, \hyperpage{13}
+    \subitem {serial1.m}, \hyperpage{18}
+  \item {img1}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{10}
+  \item {img\_\discretionary {-}{}{}bin}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{10}
+    \subitem {latest\_\discretionary {-}{}{}white.m}, \hyperpage{13}
+    \subitem {serial1.m}, \hyperpage{18}
+  \item {imshow}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{10}
+    \subitem {latest\_\discretionary {-}{}{}white.m}, \hyperpage{13}
+    \subitem {serial1.m}, \hyperpage{18}
+  \item {indent}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{10}
+  \item {indicator}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{10}
+  \item {init\_\discretionary {-}{}{}devices}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {init\_\discretionary {-}{}{}devices\_\discretionary {-}{}{}servo}
+    \subitem {servo.c}, \hyperpage{21}
+  \item {INIT\_\discretionary {-}{}{}INTERRUPT}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {INIT\_\discretionary {-}{}{}PORTS}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {init\_\discretionary {-}{}{}ports}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {init\_\discretionary {-}{}{}uart0}
+    \subitem {Main.c}, \hyperpage{16}
+  \item {ISR}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+
+  \indexspace
+
+  \item {j}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{10}
+    \subitem {latest\_\discretionary {-}{}{}white.m}, \hyperpage{13}
+    \subitem {serial1.m}, \hyperpage{18}
+
+  \indexspace
+
+  \item {k}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{10}
+    \subitem {latest\_\discretionary {-}{}{}white.m}, \hyperpage{13}
+    \subitem {serial1.m}, \hyperpage{18}
+
+  \indexspace
+
+  \item {l}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{11}
+    \subitem {latest\_\discretionary {-}{}{}white.m}, \hyperpage{13}
+    \subitem {serial1.m}, \hyperpage{19}
+  \item {latest\_\discretionary {-}{}{}white.m}
+    \subitem {count}, \hyperpage{13}
+    \subitem {delete}, \hyperpage{13}
+    \subitem {elseif}, \hyperpage{13}
+    \subitem {figure}, \hyperpage{13}
+    \subitem {if}, \hyperpage{13}
+    \subitem {imagesc}, \hyperpage{13}
+    \subitem {img}, \hyperpage{13}
+    \subitem {img\_\discretionary {-}{}{}bin}, \hyperpage{13}
+    \subitem {imshow}, \hyperpage{13}
+    \subitem {j}, \hyperpage{13}
+    \subitem {k}, \hyperpage{13}
+    \subitem {l}, \hyperpage{13}
+    \subitem {preview}, \hyperpage{13}
+    \subitem {set}, \hyperpage{13}
+    \subitem {STATS}, \hyperpage{14}
+    \subitem {stop}, \hyperpage{13}
+    \subitem {vid}, \hyperpage{14}
+  \item {lcd\_\discretionary {-}{}{}cursor}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {lcd\_\discretionary {-}{}{}home}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {lcd\_\discretionary {-}{}{}init}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {lcd\_\discretionary {-}{}{}port}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {lcd\_\discretionary {-}{}{}port\_\discretionary {-}{}{}config}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {lcd\_\discretionary {-}{}{}print}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {lcd\_\discretionary {-}{}{}reset\_\discretionary {-}{}{}4bit}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {lcd\_\discretionary {-}{}{}set\_\discretionary {-}{}{}4bit}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {lcd\_\discretionary {-}{}{}string}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {lcd\_\discretionary {-}{}{}wr\_\discretionary {-}{}{}char}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {lcd\_\discretionary {-}{}{}wr\_\discretionary {-}{}{}command}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {LEFT\_\discretionary {-}{}{}REVERSE}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {Left\_\discretionary {-}{}{}Speed}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {LEFT\_\discretionary {-}{}{}TURN}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {LEFT\_\discretionary {-}{}{}TURN\_\discretionary {-}{}{}SOFT}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {LINEAR\_\discretionary {-}{}{}DISTANCE}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+
+  \indexspace
+
+  \item {m}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{11}
+  \item {main}
+    \subitem {Main.c}, \hyperpage{16}
+  \item {Main.c}
+    \subitem {count}, \hyperpage{16}
+    \subitem {data}, \hyperpage{16}
+    \subitem {flag}, \hyperpage{16}
+    \subitem {flag\_\discretionary {-}{}{}rx}, \hyperpage{16}
+    \subitem {flag\_\discretionary {-}{}{}turn}, \hyperpage{16}
+    \subitem {flag\_\discretionary {-}{}{}x}, \hyperpage{16}
+    \subitem {init\_\discretionary {-}{}{}uart0}, \hyperpage{16}
+    \subitem {main}, \hyperpage{16}
+    \subitem {r\_\discretionary {-}{}{}count}, \hyperpage{16}
+    \subitem {rev\_\discretionary {-}{}{}dis}, \hyperpage{16}
+    \subitem {SIGNAL}, \hyperpage{16}
+    \subitem {temp}, \hyperpage{16}
+    \subitem {temp1}, \hyperpage{16}
+    \subitem {uart0\_\discretionary {-}{}{}init}, \hyperpage{16}
+    \subitem {value\_\discretionary {-}{}{}center}, \hyperpage{16}
+    \subitem {value\_\discretionary {-}{}{}center\_\discretionary {-}{}{}left}, 
+		\hyperpage{16}
+    \subitem {value\_\discretionary {-}{}{}center\_\discretionary {-}{}{}right}, 
+		\hyperpage{16}
+    \subitem {value\_\discretionary {-}{}{}left}, \hyperpage{16}
+    \subitem {value\_\discretionary {-}{}{}right}, \hyperpage{16}
+  \item {million}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+
+  \indexspace
+
+  \item {num1}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{11}
+
+  \indexspace
+
+  \item {obj}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{10}
+
+  \indexspace
+
+  \item {port\_\discretionary {-}{}{}init}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {port\_\discretionary {-}{}{}init\_\discretionary {-}{}{}servo}
+    \subitem {servo.c}, \hyperpage{21}
+  \item {preview}
+    \subitem {latest\_\discretionary {-}{}{}white.m}, \hyperpage{13}
+    \subitem {serial1.m}, \hyperpage{18}
+
+  \indexspace
+
+  \item {r\_\discretionary {-}{}{}count}
+    \subitem {Main.c}, \hyperpage{16}
+  \item {ReadAsyncMode}
+    \subitem {serial1.m}, \hyperpage{19}
+  \item {rev\_\discretionary {-}{}{}dis}
+    \subitem {Main.c}, \hyperpage{16}
+  \item {REVERSE}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {RIGHT\_\discretionary {-}{}{}REVERSE}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {Right\_\discretionary {-}{}{}Speed}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {RIGHT\_\discretionary {-}{}{}TURN}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {RIGHT\_\discretionary {-}{}{}TURN\_\discretionary {-}{}{}SOFT}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {RS}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {RW}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+
+  \indexspace
+
+  \item {s}
+    \subitem {serial1.m}, \hyperpage{19}
+  \item {sbit}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {send}
+    \subitem {serial1.m}, \hyperpage{19}
+  \item {serial1.m}
+    \subitem {delete}, \hyperpage{18}
+    \subitem {elseif}, \hyperpage{18}
+    \subitem {figure}, \hyperpage{18}
+    \subitem {fopen}, \hyperpage{18}
+    \subitem {fprintf}, \hyperpage{18}
+    \subitem {get}, \hyperpage{18}
+    \subitem {if}, \hyperpage{18}
+    \subitem {imagesc}, \hyperpage{18}
+    \subitem {img}, \hyperpage{18}
+    \subitem {img\_\discretionary {-}{}{}bin}, \hyperpage{18}
+    \subitem {imshow}, \hyperpage{18}
+    \subitem {j}, \hyperpage{18}
+    \subitem {k}, \hyperpage{18}
+    \subitem {l}, \hyperpage{19}
+    \subitem {preview}, \hyperpage{18}
+    \subitem {ReadAsyncMode}, \hyperpage{19}
+    \subitem {s}, \hyperpage{19}
+    \subitem {send}, \hyperpage{19}
+    \subitem {set}, \hyperpage{18}
+    \subitem {STATS}, \hyperpage{19}
+    \subitem {vid}, \hyperpage{19}
+    \subitem {while}, \hyperpage{18}
+  \item {servo.c}
+    \subitem {init\_\discretionary {-}{}{}devices\_\discretionary {-}{}{}servo}, 
+		\hyperpage{21}
+    \subitem {port\_\discretionary {-}{}{}init\_\discretionary {-}{}{}servo}, 
+		\hyperpage{21}
+    \subitem {servo1\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config}, 
+		\hyperpage{21}
+    \subitem {servo2\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config}, 
+		\hyperpage{21}
+    \subitem {servo3\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config}, 
+		\hyperpage{21}
+    \subitem {servo\_\discretionary {-}{}{}1}, \hyperpage{21}
+    \subitem {servo\_\discretionary {-}{}{}1\_\discretionary {-}{}{}free}, 
+		\hyperpage{21}
+    \subitem {servo\_\discretionary {-}{}{}2}, \hyperpage{21}
+    \subitem {servo\_\discretionary {-}{}{}2\_\discretionary {-}{}{}free}, 
+		\hyperpage{21}
+    \subitem {servo\_\discretionary {-}{}{}3}, \hyperpage{21}
+    \subitem {servo\_\discretionary {-}{}{}3\_\discretionary {-}{}{}free}, 
+		\hyperpage{21}
+    \subitem {timer1\_\discretionary {-}{}{}init}, \hyperpage{21}
+  \item {servo1\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config}
+    \subitem {servo.c}, \hyperpage{21}
+  \item {servo2\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config}
+    \subitem {servo.c}, \hyperpage{21}
+  \item {servo3\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config}
+    \subitem {servo.c}, \hyperpage{21}
+  \item {servo\_\discretionary {-}{}{}1}
+    \subitem {servo.c}, \hyperpage{21}
+  \item {servo\_\discretionary {-}{}{}1\_\discretionary {-}{}{}free}
+    \subitem {servo.c}, \hyperpage{21}
+  \item {servo\_\discretionary {-}{}{}2}
+    \subitem {servo.c}, \hyperpage{21}
+  \item {servo\_\discretionary {-}{}{}2\_\discretionary {-}{}{}free}
+    \subitem {servo.c}, \hyperpage{21}
+  \item {servo\_\discretionary {-}{}{}3}
+    \subitem {servo.c}, \hyperpage{21}
+  \item {servo\_\discretionary {-}{}{}3\_\discretionary {-}{}{}free}
+    \subitem {servo.c}, \hyperpage{21}
+  \item {set}
+    \subitem {latest\_\discretionary {-}{}{}white.m}, \hyperpage{13}
+    \subitem {serial1.m}, \hyperpage{18}
+  \item {shaftCountLeft}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {shaftCountRight}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {sharp\_\discretionary {-}{}{}center}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {sharp\_\discretionary {-}{}{}center\_\discretionary {-}{}{}left}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {sharp\_\discretionary {-}{}{}center\_\discretionary {-}{}{}right}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {Sharp\_\discretionary {-}{}{}GP2D12\_\discretionary {-}{}{}estimation}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {sharp\_\discretionary {-}{}{}left}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {sharp\_\discretionary {-}{}{}right}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {SIGNAL}
+    \subitem {Main.c}, \hyperpage{16}
+  \item {STATS}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{10, 11}
+    \subitem {latest\_\discretionary {-}{}{}white.m}, \hyperpage{14}
+    \subitem {serial1.m}, \hyperpage{19}
+  \item {STOP}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {stop}
+    \subitem {latest\_\discretionary {-}{}{}white.m}, \hyperpage{13}
+
+  \indexspace
+
+  \item {temp}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+    \subitem {Main.c}, \hyperpage{16}
+  \item {temp1}
+    \subitem {Main.c}, \hyperpage{16}
+  \item {tens}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {thousand}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {timer1\_\discretionary {-}{}{}init}
+    \subitem {servo.c}, \hyperpage{21}
+  \item {timer5\_\discretionary {-}{}{}init}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+
+  \indexspace
+
+  \item {uart0\_\discretionary {-}{}{}init}
+    \subitem {Main.c}, \hyperpage{16}
+  \item {unit}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+
+  \indexspace
+
+  \item {value\_\discretionary {-}{}{}center}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+    \subitem {Main.c}, \hyperpage{16}
+  \item {value\_\discretionary {-}{}{}center\_\discretionary {-}{}{}left}
+    \subitem {Main.c}, \hyperpage{16}
+  \item {value\_\discretionary {-}{}{}center\_\discretionary {-}{}{}right}
+    \subitem {Main.c}, \hyperpage{16}
+  \item {value\_\discretionary {-}{}{}left}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+    \subitem {Main.c}, \hyperpage{16}
+  \item {value\_\discretionary {-}{}{}right}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+    \subitem {Main.c}, \hyperpage{16}
+  \item {vid}
+    \subitem {latest\_\discretionary {-}{}{}white.m}, \hyperpage{14}
+    \subitem {serial1.m}, \hyperpage{19}
+
+  \indexspace
+
+  \item {while}
+    \subitem {grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}, 
+		\hyperpage{10}
+    \subitem {serial1.m}, \hyperpage{18}
+  \item {white\_\discretionary {-}{}{}1}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {white\_\discretionary {-}{}{}2}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+  \item {white\_\discretionary {-}{}{}3}
+    \subitem {cover\_\discretionary {-}{}{}field.c}, \hyperpage{7}
+
+\end{theindex}

@@ -1,0 +1,437 @@
+#include <avr/io.h>
+#include <avr/interrupt.h>
+#include <util/delay.h>
+
+#include <math.h>
+
+#include "cover_field.c"
+#include "servo.c"
+#include "zigbee.c"
+
+unsigned char data = 0x00;
+
+SIGNAL(SIG_USART0_RECV) 		// ISR for receive complete interrupt
+{
+	data = UDR0; 				//making copy of data from UDR0 in 'data' variable 
+				//echo data back to PC
+}
+
+
+
+
+
+
+
+int main(void)
+{
+unsigned int value_left, value_center, value_right,value_center_left,value_center_right;
+unsigned int temp,count;
+unsigned int flag_turn = 0;
+unsigned int flag = 0;
+
+
+init_devices();
+init_devices_servo();
+timer5_init();
+INIT_PORTS();
+lcd_set_4bit();
+lcd_init();
+INIT_INTERRUPT();
+init_uart0();
+
+
+
+
+
+	// INTIAL POSITION OF ARM.. SERVO_1 = Gripper, SERVO_2 = UP/DOWN, SERVO_3 = LEFT/RIGHT
+	
+	servo_1(180);
+	_delay_ms(2000);
+	servo_2(90);
+	_delay_ms(2000);
+	servo_3(80);
+	//_delay_ms(50);
+
+
+
+	Left_Speed(150);
+	Right_Speed(160);
+	FORWARD();
+
+while(1)
+{
+	//BATT_V = ADC_Conversion(0);
+	//BATT_Voltage = ((ADC_Conversion(0)*100)*0.07902) + 0.7;	//Prints Battery Voltage Status
+	//lcd_print(1,1,BATT_Voltage,4);
+
+
+
+	
+	
+	sharp_left = ADC_Conversion(9);
+	value_left = Sharp_GP2D12_estimation(sharp_left);
+	lcd_print(2,1,value_left,3); 
+	
+	sharp_right = ADC_Conversion(13);
+	value_right = Sharp_GP2D12_estimation(sharp_right);
+	lcd_print(2,13,value_right,3);
+
+
+	sharp_center_left=ADC_Conversion(10);
+	value_center_left=Sharp_GP2D12_estimation(sharp_center_left);
+	lcd_print(1,1,value_center_left,3); 
+
+	sharp_center = ADC_Conversion(11);
+	value_center = Sharp_GP2D12_estimation(sharp_center);
+	lcd_print(1,7,value_center,3);
+	
+	sharp_center_right = ADC_Conversion(12);
+	value_center_right = Sharp_GP2D12_estimation(sharp_center_right);
+	lcd_print(1,13,value_center_right,3);
+		
+
+
+
+	
+	white_1 = ADC_Conversion(1);
+	//lcd_print(1,1,white_1,4);
+	white_2 = ADC_Conversion(2);
+	//lcd_print(1,7,white_2,4);
+	white_3 = ADC_Conversion(3);
+	//lcd_print(1,13,white_3,4);
+			
+	if (white_1<30 || white_3<30)
+	{
+		sharp_left = ADC_Conversion(9);
+		value_left = Sharp_GP2D12_estimation(sharp_left);
+	lcd_print(2,1,value_left,3); 
+	
+	sharp_right = ADC_Conversion(13);
+	value_right = Sharp_GP2D12_estimation(sharp_right);
+	lcd_print(2,13,value_right,3);
+
+
+	sharp_center_left=ADC_Conversion(10);
+	value_center_left=Sharp_GP2D12_estimation(sharp_center_left);
+	lcd_print(1,1,value_center_left,3); 
+
+	sharp_center = ADC_Conversion(11);
+	value_center = Sharp_GP2D12_estimation(sharp_center);
+	lcd_print(1,7,value_center,3);
+	
+	sharp_center_right = ADC_Conversion(12);
+	value_center_right = Sharp_GP2D12_estimation(sharp_center_right);
+	lcd_print(1,13,value_center_right,3);
+				
+		white_1 = ADC_Conversion(1);
+		//lcd_print(1,1,white_1,4);
+		white_2 = ADC_Conversion(2);
+		//lcd_print(1,7,white_2,4);
+		white_3 = ADC_Conversion(3);
+		//lcd_print(1,13,white_3,4);
+
+		FORWARD();
+		if(flag%2 == 0)
+		{
+			RIGHT_TURN();
+			ANGLE_ROTATE(90);
+				
+			FORWARD();
+			LINEAR_DISTANCE(160);
+						
+			FORWARD();
+			RIGHT_TURN();
+			ANGLE_ROTATE(90);
+		}
+		else
+		{
+			LEFT_TURN();
+			ANGLE_ROTATE(90);
+					
+			FORWARD();
+			LINEAR_DISTANCE(160);
+						
+			FORWARD();
+			LEFT_TURN();
+			ANGLE_ROTATE(90);
+		}
+		flag++;
+	}
+
+	/* While object is not detected in the left or right sensors */
+	if (((value_left > 150) && (value_left < 300))|| ((value_right > 150) &&  (value_right < 300)))
+	{
+		STOP();
+		count = 0;
+		/* Logic to turn and align */
+		if (value_left < 300 && value_left > 150) 
+		{
+			flag_turn=1;
+			temp = value_left;
+			FORWARD();
+			LEFT_TURN_SOFT();
+			ANGLE_ROTATE(45);
+
+			sharp_center_left=ADC_Conversion(10);
+			value_center_left=Sharp_GP2D12_estimation(sharp_center_left);
+			lcd_print(1,1,value_center_left,3); 
+
+			sharp_center = ADC_Conversion(11);
+			value_center = Sharp_GP2D12_estimation(sharp_center);
+			lcd_print(1,7,value_center,3);
+	
+			sharp_center_right = ADC_Conversion(12);
+			value_center_right = Sharp_GP2D12_estimation(sharp_center_right);
+			lcd_print(1,13,value_center_right,3);
+		
+	
+
+		//while( !((value_center_left > temp + 300) && (value_center_right > temp + 300) &&
+		//		 (value_center <= (temp-40)) && (value_center >= (temp-80)) ))
+
+			while( !((value_center_left > value_center) && (value_center_right > value_center) &&
+					(value_center <= (temp-70))))
+					//&& (value_center >= (temp-80)
+			{
+			    count++;
+				FORWARD();
+				LEFT_TURN_SOFT();
+				_delay_ms(200);
+				STOP();
+
+				sharp_center_left=ADC_Conversion(10);
+				value_center_left=Sharp_GP2D12_estimation(sharp_center_left);
+				lcd_print(1,1,value_center_left,3); 
+
+				sharp_center = ADC_Conversion(11);
+				value_center = Sharp_GP2D12_estimation(sharp_center);
+				lcd_print(1,7,value_center,3);
+	
+				sharp_center_right = ADC_Conversion(12);
+				value_center_right = Sharp_GP2D12_estimation(sharp_center_right);
+				lcd_print(1,13,value_center_right,3);
+
+
+			}
+			STOP();
+			//_delay_ms(100000);   //
+			//FORWARD();         //
+		}
+		else if (value_right < 300 && value_right > 150)
+		{
+			flag_turn=2;
+			temp = value_right;
+			/* turn 45 degrees */
+			FORWARD();
+			RIGHT_TURN_SOFT();
+			ANGLE_ROTATE(45);
+			/* Front IR On */
+			sharp_center_left=ADC_Conversion(10);
+			value_center_left=Sharp_GP2D12_estimation(sharp_center_left);
+			lcd_print(1,1,value_center_left,3); 
+
+			sharp_center = ADC_Conversion(11);
+			value_center = Sharp_GP2D12_estimation(sharp_center);
+			lcd_print(1,7,value_center,3);
+	
+			sharp_center_right = ADC_Conversion(12);
+			value_center_right = Sharp_GP2D12_estimation(sharp_center_right);
+			lcd_print(1,13,value_center_right,3);
+			
+
+			//while( !((value_center_left > temp + 300) && (value_center_right > temp + 300) &&
+			//		 value_center <= (temp-40) && value_center >= (temp-80)) )
+
+			while( !((value_center_left > value_center) && (value_center_right > value_center) &&
+					(value_center <= (temp-70))))
+					//&& (value_center >= (temp-80)
+			{
+			    count++;
+				FORWARD();
+				RIGHT_TURN_SOFT();
+				_delay_ms(200);
+				STOP();
+
+				sharp_center_left=ADC_Conversion(10);
+				value_center_left=Sharp_GP2D12_estimation(sharp_center_left);
+				lcd_print(1,1,value_center_left,3); 
+
+				sharp_center = ADC_Conversion(11);
+				value_center = Sharp_GP2D12_estimation(sharp_center);
+				lcd_print(1,7,value_center,3);
+	
+				sharp_center_right = ADC_Conversion(12);
+				value_center_right = Sharp_GP2D12_estimation(sharp_center_right);
+				lcd_print(1,13,value_center_right,3);
+
+
+			}
+				
+			STOP();
+				
+			//_delay_ms(100000);   //
+			//FORWARD();     		
+		}
+
+		/*
+		** Logic to Process Image and Pick n place**/
+		// SERIAL
+         
+			UDR0=0x08;
+			data=0;
+			while(data == 0x00)
+			{
+				_delay_ms(200);
+			}
+
+		// Pick and Place
+
+		servo_2(115);
+		_delay_ms(2000);
+		//servo_2(120);
+		//_delay_ms(2000);
+		servo_1(0);
+		_delay_ms(2000);
+		servo_2(90);
+		_delay_ms(2000);
+		servo_3(10);//// logic to sort the object still to be included
+		_delay_ms(2000);
+		servo_1(180);
+		_delay_ms(2000);
+		servo_3(80);
+		_delay_ms(2000);
+		
+
+
+
+
+
+
+
+
+		// TO bring the bot to the same position wherein it started from, before detecting the object
+	
+		if(flag_turn == 1)   // If Left turn earlier falg == 1 and if right turn earlier flag == 2 else flag ==0
+		{
+			
+			while(!(count == 0))
+			{
+				REVERSE();
+				RIGHT_REVERSE();
+				count--;
+				_delay_ms(200);
+				STOP();
+
+
+					sharp_center_left=ADC_Conversion(10);
+				value_center_left=Sharp_GP2D12_estimation(sharp_center_left);
+				lcd_print(1,1,value_center_left,3); 
+
+				sharp_center = ADC_Conversion(11);
+				value_center = Sharp_GP2D12_estimation(sharp_center);
+				lcd_print(1,7,value_center,3);
+	
+				sharp_center_right = ADC_Conversion(12);
+				value_center_right = Sharp_GP2D12_estimation(sharp_center_right);
+				lcd_print(1,13,value_center_right,3);
+			}
+			REVERSE();
+			RIGHT_REVERSE();
+			ANGLE_ROTATE(45);
+			flag_turn=0;
+
+		}
+		else if(flag_turn == 2)
+		{
+			
+			while(!(count != 0x38))
+			{
+				REVERSE();
+				LEFT_REVERSE();
+				count--;
+				_delay_ms(200);
+				STOP();
+
+
+					sharp_center_left=ADC_Conversion(10);
+				value_center_left=Sharp_GP2D12_estimation(sharp_center_left);
+				lcd_print(1,1,value_center_left,3); 
+
+				sharp_center = ADC_Conversion(11);
+				value_center = Sharp_GP2D12_estimation(sharp_center);
+				lcd_print(1,7,value_center,3);
+	
+				sharp_center_right = ADC_Conversion(12);
+				value_center_right = Sharp_GP2D12_estimation(sharp_center_right);
+				lcd_print(1,13,value_center_right,3);
+			}
+			REVERSE();
+			LEFT_REVERSE();
+
+			ANGLE_ROTATE(45);
+			
+			flag_turn=0;
+		}
+				
+		data=0x00;
+
+		sharp_left = ADC_Conversion(9);
+	value_left = Sharp_GP2D12_estimation(sharp_left);
+	lcd_print(2,1,value_left,3); 
+	
+	sharp_right = ADC_Conversion(13);
+	value_right = Sharp_GP2D12_estimation(sharp_right);
+	lcd_print(2,13,value_right,3);
+
+
+	sharp_center_left=ADC_Conversion(10);
+	value_center_left=Sharp_GP2D12_estimation(sharp_center_left);
+	lcd_print(1,1,value_center_left,3); 
+
+	sharp_center = ADC_Conversion(11);
+	value_center = Sharp_GP2D12_estimation(sharp_center);
+	lcd_print(1,7,value_center,3);
+	
+	sharp_center_right = ADC_Conversion(12);
+	value_center_right = Sharp_GP2D12_estimation(sharp_center_right);
+	lcd_print(1,13,value_center_right,3);
+			
+		white_1 = ADC_Conversion(1);
+		//lcd_print(1,1,white_1,4);
+		white_2 = ADC_Conversion(2);
+		//lcd_print(1,7,white_2,4);
+		white_3 = ADC_Conversion(3);
+		//lcd_print(1,13,white_3,4);
+
+		FORWARD();
+		if (white_1<30 || white_3<30)
+		{
+			if(flag%2 == 0)
+			{
+				RIGHT_TURN();
+				ANGLE_ROTATE(90);
+						
+				FORWARD();
+				LINEAR_DISTANCE(160);
+					
+				FORWARD();
+				RIGHT_TURN();
+				ANGLE_ROTATE(90);
+			}
+			else
+			{
+				LEFT_TURN();
+				ANGLE_ROTATE(90);
+						
+				FORWARD();
+				LINEAR_DISTANCE(160);
+						
+				FORWARD();
+				LEFT_TURN();
+				ANGLE_ROTATE(90);
+			}
+		}
+	}
+	FORWARD();
+}
+}

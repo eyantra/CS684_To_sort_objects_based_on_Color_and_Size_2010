@@ -1,0 +1,343 @@
+\indexentry{Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/cover\_\discretionary {-}{}{}field.c@{Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/cover\_\discretionary {-}{}{}field.c}|hyperpage}{3}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!cbit@{cbit}|hyperpage}{7}
+\indexentry{cbit@{cbit}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!EN@{EN}|hyperpage}{7}
+\indexentry{EN@{EN}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!FCPU@{FCPU}|hyperpage}{7}
+\indexentry{FCPU@{FCPU}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!FCPU@{FCPU}|hyperpage}{7}
+\indexentry{FCPU@{FCPU}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!lcd\_\discretionary {-}{}{}port@{lcd\_\discretionary {-}{}{}port}|hyperpage}{7}
+\indexentry{lcd\_\discretionary {-}{}{}port@{lcd\_\discretionary {-}{}{}port}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!RS@{RS}|hyperpage}{7}
+\indexentry{RS@{RS}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!RW@{RW}|hyperpage}{7}
+\indexentry{RW@{RW}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!sbit@{sbit}|hyperpage}{7}
+\indexentry{sbit@{sbit}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!ADC\_\discretionary {-}{}{}Conversion@{ADC\_\discretionary {-}{}{}Conversion}|hyperpage}{7}
+\indexentry{ADC\_\discretionary {-}{}{}Conversion@{ADC\_\discretionary {-}{}{}Conversion}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!adc\_\discretionary {-}{}{}init@{adc\_\discretionary {-}{}{}init}|hyperpage}{7}
+\indexentry{adc\_\discretionary {-}{}{}init@{adc\_\discretionary {-}{}{}init}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!adc\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config@{adc\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config}|hyperpage}{7}
+\indexentry{adc\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config@{adc\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!ANGLE\_\discretionary {-}{}{}ROTATE@{ANGLE\_\discretionary {-}{}{}ROTATE}|hyperpage}{7}
+\indexentry{ANGLE\_\discretionary {-}{}{}ROTATE@{ANGLE\_\discretionary {-}{}{}ROTATE}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!FORWARD@{FORWARD}|hyperpage}{7}
+\indexentry{FORWARD@{FORWARD}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!init\_\discretionary {-}{}{}devices@{init\_\discretionary {-}{}{}devices}|hyperpage}{7}
+\indexentry{init\_\discretionary {-}{}{}devices@{init\_\discretionary {-}{}{}devices}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!INIT\_\discretionary {-}{}{}INTERRUPT@{INIT\_\discretionary {-}{}{}INTERRUPT}|hyperpage}{7}
+\indexentry{INIT\_\discretionary {-}{}{}INTERRUPT@{INIT\_\discretionary {-}{}{}INTERRUPT}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!INIT\_\discretionary {-}{}{}PORTS@{INIT\_\discretionary {-}{}{}PORTS}|hyperpage}{7}
+\indexentry{INIT\_\discretionary {-}{}{}PORTS@{INIT\_\discretionary {-}{}{}PORTS}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!init\_\discretionary {-}{}{}ports@{init\_\discretionary {-}{}{}ports}|hyperpage}{7}
+\indexentry{init\_\discretionary {-}{}{}ports@{init\_\discretionary {-}{}{}ports}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!ISR@{ISR}|hyperpage}{7}
+\indexentry{ISR@{ISR}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!ISR@{ISR}|hyperpage}{7}
+\indexentry{ISR@{ISR}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!lcd\_\discretionary {-}{}{}cursor@{lcd\_\discretionary {-}{}{}cursor}|hyperpage}{7}
+\indexentry{lcd\_\discretionary {-}{}{}cursor@{lcd\_\discretionary {-}{}{}cursor}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!lcd\_\discretionary {-}{}{}home@{lcd\_\discretionary {-}{}{}home}|hyperpage}{7}
+\indexentry{lcd\_\discretionary {-}{}{}home@{lcd\_\discretionary {-}{}{}home}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!lcd\_\discretionary {-}{}{}init@{lcd\_\discretionary {-}{}{}init}|hyperpage}{7}
+\indexentry{lcd\_\discretionary {-}{}{}init@{lcd\_\discretionary {-}{}{}init}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!lcd\_\discretionary {-}{}{}port\_\discretionary {-}{}{}config@{lcd\_\discretionary {-}{}{}port\_\discretionary {-}{}{}config}|hyperpage}{7}
+\indexentry{lcd\_\discretionary {-}{}{}port\_\discretionary {-}{}{}config@{lcd\_\discretionary {-}{}{}port\_\discretionary {-}{}{}config}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!lcd\_\discretionary {-}{}{}print@{lcd\_\discretionary {-}{}{}print}|hyperpage}{7}
+\indexentry{lcd\_\discretionary {-}{}{}print@{lcd\_\discretionary {-}{}{}print}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!lcd\_\discretionary {-}{}{}reset\_\discretionary {-}{}{}4bit@{lcd\_\discretionary {-}{}{}reset\_\discretionary {-}{}{}4bit}|hyperpage}{7}
+\indexentry{lcd\_\discretionary {-}{}{}reset\_\discretionary {-}{}{}4bit@{lcd\_\discretionary {-}{}{}reset\_\discretionary {-}{}{}4bit}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!lcd\_\discretionary {-}{}{}set\_\discretionary {-}{}{}4bit@{lcd\_\discretionary {-}{}{}set\_\discretionary {-}{}{}4bit}|hyperpage}{7}
+\indexentry{lcd\_\discretionary {-}{}{}set\_\discretionary {-}{}{}4bit@{lcd\_\discretionary {-}{}{}set\_\discretionary {-}{}{}4bit}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!lcd\_\discretionary {-}{}{}string@{lcd\_\discretionary {-}{}{}string}|hyperpage}{7}
+\indexentry{lcd\_\discretionary {-}{}{}string@{lcd\_\discretionary {-}{}{}string}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!lcd\_\discretionary {-}{}{}wr\_\discretionary {-}{}{}char@{lcd\_\discretionary {-}{}{}wr\_\discretionary {-}{}{}char}|hyperpage}{7}
+\indexentry{lcd\_\discretionary {-}{}{}wr\_\discretionary {-}{}{}char@{lcd\_\discretionary {-}{}{}wr\_\discretionary {-}{}{}char}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!lcd\_\discretionary {-}{}{}wr\_\discretionary {-}{}{}command@{lcd\_\discretionary {-}{}{}wr\_\discretionary {-}{}{}command}|hyperpage}{7}
+\indexentry{lcd\_\discretionary {-}{}{}wr\_\discretionary {-}{}{}command@{lcd\_\discretionary {-}{}{}wr\_\discretionary {-}{}{}command}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!LEFT\_\discretionary {-}{}{}REVERSE@{LEFT\_\discretionary {-}{}{}REVERSE}|hyperpage}{7}
+\indexentry{LEFT\_\discretionary {-}{}{}REVERSE@{LEFT\_\discretionary {-}{}{}REVERSE}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!Left\_\discretionary {-}{}{}Speed@{Left\_\discretionary {-}{}{}Speed}|hyperpage}{7}
+\indexentry{Left\_\discretionary {-}{}{}Speed@{Left\_\discretionary {-}{}{}Speed}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!LEFT\_\discretionary {-}{}{}TURN@{LEFT\_\discretionary {-}{}{}TURN}|hyperpage}{7}
+\indexentry{LEFT\_\discretionary {-}{}{}TURN@{LEFT\_\discretionary {-}{}{}TURN}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!LEFT\_\discretionary {-}{}{}TURN\_\discretionary {-}{}{}SOFT@{LEFT\_\discretionary {-}{}{}TURN\_\discretionary {-}{}{}SOFT}|hyperpage}{7}
+\indexentry{LEFT\_\discretionary {-}{}{}TURN\_\discretionary {-}{}{}SOFT@{LEFT\_\discretionary {-}{}{}TURN\_\discretionary {-}{}{}SOFT}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!LINEAR\_\discretionary {-}{}{}DISTANCE@{LINEAR\_\discretionary {-}{}{}DISTANCE}|hyperpage}{7}
+\indexentry{LINEAR\_\discretionary {-}{}{}DISTANCE@{LINEAR\_\discretionary {-}{}{}DISTANCE}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!port\_\discretionary {-}{}{}init@{port\_\discretionary {-}{}{}init}|hyperpage}{7}
+\indexentry{port\_\discretionary {-}{}{}init@{port\_\discretionary {-}{}{}init}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!REVERSE@{REVERSE}|hyperpage}{7}
+\indexentry{REVERSE@{REVERSE}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!RIGHT\_\discretionary {-}{}{}REVERSE@{RIGHT\_\discretionary {-}{}{}REVERSE}|hyperpage}{7}
+\indexentry{RIGHT\_\discretionary {-}{}{}REVERSE@{RIGHT\_\discretionary {-}{}{}REVERSE}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!Right\_\discretionary {-}{}{}Speed@{Right\_\discretionary {-}{}{}Speed}|hyperpage}{7}
+\indexentry{Right\_\discretionary {-}{}{}Speed@{Right\_\discretionary {-}{}{}Speed}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!RIGHT\_\discretionary {-}{}{}TURN@{RIGHT\_\discretionary {-}{}{}TURN}|hyperpage}{7}
+\indexentry{RIGHT\_\discretionary {-}{}{}TURN@{RIGHT\_\discretionary {-}{}{}TURN}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!RIGHT\_\discretionary {-}{}{}TURN\_\discretionary {-}{}{}SOFT@{RIGHT\_\discretionary {-}{}{}TURN\_\discretionary {-}{}{}SOFT}|hyperpage}{7}
+\indexentry{RIGHT\_\discretionary {-}{}{}TURN\_\discretionary {-}{}{}SOFT@{RIGHT\_\discretionary {-}{}{}TURN\_\discretionary {-}{}{}SOFT}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!Sharp\_\discretionary {-}{}{}GP2D12\_\discretionary {-}{}{}estimation@{Sharp\_\discretionary {-}{}{}GP2D12\_\discretionary {-}{}{}estimation}|hyperpage}{7}
+\indexentry{Sharp\_\discretionary {-}{}{}GP2D12\_\discretionary {-}{}{}estimation@{Sharp\_\discretionary {-}{}{}GP2D12\_\discretionary {-}{}{}estimation}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!STOP@{STOP}|hyperpage}{7}
+\indexentry{STOP@{STOP}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!timer5\_\discretionary {-}{}{}init@{timer5\_\discretionary {-}{}{}init}|hyperpage}{7}
+\indexentry{timer5\_\discretionary {-}{}{}init@{timer5\_\discretionary {-}{}{}init}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!adc\_\discretionary {-}{}{}reading@{adc\_\discretionary {-}{}{}reading}|hyperpage}{7}
+\indexentry{adc\_\discretionary {-}{}{}reading@{adc\_\discretionary {-}{}{}reading}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!ADC\_\discretionary {-}{}{}Value@{ADC\_\discretionary {-}{}{}Value}|hyperpage}{7}
+\indexentry{ADC\_\discretionary {-}{}{}Value@{ADC\_\discretionary {-}{}{}Value}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!BATT\_\discretionary {-}{}{}V@{BATT\_\discretionary {-}{}{}V}|hyperpage}{7}
+\indexentry{BATT\_\discretionary {-}{}{}V@{BATT\_\discretionary {-}{}{}V}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!BATT\_\discretionary {-}{}{}Voltage@{BATT\_\discretionary {-}{}{}Voltage}|hyperpage}{7}
+\indexentry{BATT\_\discretionary {-}{}{}Voltage@{BATT\_\discretionary {-}{}{}Voltage}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!distance@{distance}|hyperpage}{7}
+\indexentry{distance@{distance}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!hundred@{hundred}|hyperpage}{7}
+\indexentry{hundred@{hundred}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!i@{i}|hyperpage}{7}
+\indexentry{i@{i}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!million@{million}|hyperpage}{7}
+\indexentry{million@{million}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!shaftCountLeft@{shaftCountLeft}|hyperpage}{7}
+\indexentry{shaftCountLeft@{shaftCountLeft}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!shaftCountRight@{shaftCountRight}|hyperpage}{7}
+\indexentry{shaftCountRight@{shaftCountRight}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!sharp\_\discretionary {-}{}{}center@{sharp\_\discretionary {-}{}{}center}|hyperpage}{7}
+\indexentry{sharp\_\discretionary {-}{}{}center@{sharp\_\discretionary {-}{}{}center}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!sharp\_\discretionary {-}{}{}center\_\discretionary {-}{}{}left@{sharp\_\discretionary {-}{}{}center\_\discretionary {-}{}{}left}|hyperpage}{7}
+\indexentry{sharp\_\discretionary {-}{}{}center\_\discretionary {-}{}{}left@{sharp\_\discretionary {-}{}{}center\_\discretionary {-}{}{}left}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!sharp\_\discretionary {-}{}{}center\_\discretionary {-}{}{}right@{sharp\_\discretionary {-}{}{}center\_\discretionary {-}{}{}right}|hyperpage}{7}
+\indexentry{sharp\_\discretionary {-}{}{}center\_\discretionary {-}{}{}right@{sharp\_\discretionary {-}{}{}center\_\discretionary {-}{}{}right}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!sharp\_\discretionary {-}{}{}left@{sharp\_\discretionary {-}{}{}left}|hyperpage}{7}
+\indexentry{sharp\_\discretionary {-}{}{}left@{sharp\_\discretionary {-}{}{}left}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!sharp\_\discretionary {-}{}{}right@{sharp\_\discretionary {-}{}{}right}|hyperpage}{7}
+\indexentry{sharp\_\discretionary {-}{}{}right@{sharp\_\discretionary {-}{}{}right}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!temp@{temp}|hyperpage}{7}
+\indexentry{temp@{temp}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!tens@{tens}|hyperpage}{7}
+\indexentry{tens@{tens}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!thousand@{thousand}|hyperpage}{7}
+\indexentry{thousand@{thousand}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!unit@{unit}|hyperpage}{7}
+\indexentry{unit@{unit}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!value\_\discretionary {-}{}{}center@{value\_\discretionary {-}{}{}center}|hyperpage}{7}
+\indexentry{value\_\discretionary {-}{}{}center@{value\_\discretionary {-}{}{}center}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!value\_\discretionary {-}{}{}left@{value\_\discretionary {-}{}{}left}|hyperpage}{7}
+\indexentry{value\_\discretionary {-}{}{}left@{value\_\discretionary {-}{}{}left}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!value\_\discretionary {-}{}{}right@{value\_\discretionary {-}{}{}right}|hyperpage}{7}
+\indexentry{value\_\discretionary {-}{}{}right@{value\_\discretionary {-}{}{}right}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!white\_\discretionary {-}{}{}1@{white\_\discretionary {-}{}{}1}|hyperpage}{7}
+\indexentry{white\_\discretionary {-}{}{}1@{white\_\discretionary {-}{}{}1}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!white\_\discretionary {-}{}{}2@{white\_\discretionary {-}{}{}2}|hyperpage}{7}
+\indexentry{white\_\discretionary {-}{}{}2@{white\_\discretionary {-}{}{}2}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{cover\_\discretionary {-}{}{}field.c@{cover\_\discretionary {-}{}{}field.c}!white\_\discretionary {-}{}{}3@{white\_\discretionary {-}{}{}3}|hyperpage}{7}
+\indexentry{white\_\discretionary {-}{}{}3@{white\_\discretionary {-}{}{}3}!cover_field.c@{cover\_\discretionary {-}{}{}field.c}|hyperpage}{7}
+\indexentry{Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{8}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!elseif@{elseif}|hyperpage}{10}
+\indexentry{elseif@{elseif}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!if@{if}|hyperpage}{10}
+\indexentry{if@{if}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!if@{if}|hyperpage}{10}
+\indexentry{if@{if}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!if@{if}|hyperpage}{10}
+\indexentry{if@{if}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!imagesc@{imagesc}|hyperpage}{10}
+\indexentry{imagesc@{imagesc}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!img\_\discretionary {-}{}{}bin@{img\_\discretionary {-}{}{}bin}|hyperpage}{10}
+\indexentry{img\_\discretionary {-}{}{}bin@{img\_\discretionary {-}{}{}bin}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!imshow@{imshow}|hyperpage}{10}
+\indexentry{imshow@{imshow}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!imshow@{imshow}|hyperpage}{10}
+\indexentry{imshow@{imshow}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!imshow@{imshow}|hyperpage}{10}
+\indexentry{imshow@{imshow}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!obj@{obj}|hyperpage}{10}
+\indexentry{obj@{obj}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!STATS@{STATS}|hyperpage}{10}
+\indexentry{STATS@{STATS}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!while@{while}|hyperpage}{10}
+\indexentry{while@{while}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!all@{all}|hyperpage}{10}
+\indexentry{all@{all}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!clc@{clc}|hyperpage}{10}
+\indexentry{clc@{clc}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!count\_\discretionary {-}{}{}num@{count\_\discretionary {-}{}{}num}|hyperpage}{10}
+\indexentry{count\_\discretionary {-}{}{}num@{count\_\discretionary {-}{}{}num}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!i@{i}|hyperpage}{10}
+\indexentry{i@{i}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!img@{img}|hyperpage}{10}
+\indexentry{img@{img}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!img1@{img1}|hyperpage}{10}
+\indexentry{img1@{img1}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!indent@{indent}|hyperpage}{10}
+\indexentry{indent@{indent}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!indicator@{indicator}|hyperpage}{10}
+\indexentry{indicator@{indicator}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!j@{j}|hyperpage}{10}
+\indexentry{j@{j}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!k@{k}|hyperpage}{10}
+\indexentry{k@{k}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{10}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!l@{l}|hyperpage}{11}
+\indexentry{l@{l}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{11}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!m@{m}|hyperpage}{11}
+\indexentry{m@{m}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{11}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!num1@{num1}|hyperpage}{11}
+\indexentry{num1@{num1}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{11}
+\indexentry{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}!STATS@{STATS}|hyperpage}{11}
+\indexentry{STATS@{STATS}!grp_4_try1.m@{grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m}|hyperpage}{11}
+\indexentry{Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/latest\_\discretionary {-}{}{}white.m@{Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/latest\_\discretionary {-}{}{}white.m}|hyperpage}{12}
+\indexentry{latest\_\discretionary {-}{}{}white.m@{latest\_\discretionary {-}{}{}white.m}!delete@{delete}|hyperpage}{13}
+\indexentry{delete@{delete}!latest_white.m@{latest\_\discretionary {-}{}{}white.m}|hyperpage}{13}
+\indexentry{latest\_\discretionary {-}{}{}white.m@{latest\_\discretionary {-}{}{}white.m}!elseif@{elseif}|hyperpage}{13}
+\indexentry{elseif@{elseif}!latest_white.m@{latest\_\discretionary {-}{}{}white.m}|hyperpage}{13}
+\indexentry{latest\_\discretionary {-}{}{}white.m@{latest\_\discretionary {-}{}{}white.m}!if@{if}|hyperpage}{13}
+\indexentry{if@{if}!latest_white.m@{latest\_\discretionary {-}{}{}white.m}|hyperpage}{13}
+\indexentry{latest\_\discretionary {-}{}{}white.m@{latest\_\discretionary {-}{}{}white.m}!imagesc@{imagesc}|hyperpage}{13}
+\indexentry{imagesc@{imagesc}!latest_white.m@{latest\_\discretionary {-}{}{}white.m}|hyperpage}{13}
+\indexentry{latest\_\discretionary {-}{}{}white.m@{latest\_\discretionary {-}{}{}white.m}!img\_\discretionary {-}{}{}bin@{img\_\discretionary {-}{}{}bin}|hyperpage}{13}
+\indexentry{img\_\discretionary {-}{}{}bin@{img\_\discretionary {-}{}{}bin}!latest_white.m@{latest\_\discretionary {-}{}{}white.m}|hyperpage}{13}
+\indexentry{latest\_\discretionary {-}{}{}white.m@{latest\_\discretionary {-}{}{}white.m}!imshow@{imshow}|hyperpage}{13}
+\indexentry{imshow@{imshow}!latest_white.m@{latest\_\discretionary {-}{}{}white.m}|hyperpage}{13}
+\indexentry{latest\_\discretionary {-}{}{}white.m@{latest\_\discretionary {-}{}{}white.m}!imshow@{imshow}|hyperpage}{13}
+\indexentry{imshow@{imshow}!latest_white.m@{latest\_\discretionary {-}{}{}white.m}|hyperpage}{13}
+\indexentry{latest\_\discretionary {-}{}{}white.m@{latest\_\discretionary {-}{}{}white.m}!preview@{preview}|hyperpage}{13}
+\indexentry{preview@{preview}!latest_white.m@{latest\_\discretionary {-}{}{}white.m}|hyperpage}{13}
+\indexentry{latest\_\discretionary {-}{}{}white.m@{latest\_\discretionary {-}{}{}white.m}!set@{set}|hyperpage}{13}
+\indexentry{set@{set}!latest_white.m@{latest\_\discretionary {-}{}{}white.m}|hyperpage}{13}
+\indexentry{latest\_\discretionary {-}{}{}white.m@{latest\_\discretionary {-}{}{}white.m}!stop@{stop}|hyperpage}{13}
+\indexentry{stop@{stop}!latest_white.m@{latest\_\discretionary {-}{}{}white.m}|hyperpage}{13}
+\indexentry{latest\_\discretionary {-}{}{}white.m@{latest\_\discretionary {-}{}{}white.m}!count@{count}|hyperpage}{13}
+\indexentry{count@{count}!latest_white.m@{latest\_\discretionary {-}{}{}white.m}|hyperpage}{13}
+\indexentry{latest\_\discretionary {-}{}{}white.m@{latest\_\discretionary {-}{}{}white.m}!figure@{figure}|hyperpage}{13}
+\indexentry{figure@{figure}!latest_white.m@{latest\_\discretionary {-}{}{}white.m}|hyperpage}{13}
+\indexentry{latest\_\discretionary {-}{}{}white.m@{latest\_\discretionary {-}{}{}white.m}!img@{img}|hyperpage}{13}
+\indexentry{img@{img}!latest_white.m@{latest\_\discretionary {-}{}{}white.m}|hyperpage}{13}
+\indexentry{latest\_\discretionary {-}{}{}white.m@{latest\_\discretionary {-}{}{}white.m}!j@{j}|hyperpage}{13}
+\indexentry{j@{j}!latest_white.m@{latest\_\discretionary {-}{}{}white.m}|hyperpage}{13}
+\indexentry{latest\_\discretionary {-}{}{}white.m@{latest\_\discretionary {-}{}{}white.m}!k@{k}|hyperpage}{13}
+\indexentry{k@{k}!latest_white.m@{latest\_\discretionary {-}{}{}white.m}|hyperpage}{13}
+\indexentry{latest\_\discretionary {-}{}{}white.m@{latest\_\discretionary {-}{}{}white.m}!l@{l}|hyperpage}{13}
+\indexentry{l@{l}!latest_white.m@{latest\_\discretionary {-}{}{}white.m}|hyperpage}{13}
+\indexentry{latest\_\discretionary {-}{}{}white.m@{latest\_\discretionary {-}{}{}white.m}!STATS@{STATS}|hyperpage}{14}
+\indexentry{STATS@{STATS}!latest_white.m@{latest\_\discretionary {-}{}{}white.m}|hyperpage}{14}
+\indexentry{latest\_\discretionary {-}{}{}white.m@{latest\_\discretionary {-}{}{}white.m}!vid@{vid}|hyperpage}{14}
+\indexentry{vid@{vid}!latest_white.m@{latest\_\discretionary {-}{}{}white.m}|hyperpage}{14}
+\indexentry{Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/Main.c@{Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/Main.c}|hyperpage}{15}
+\indexentry{Main.c@{Main.c}!init\_\discretionary {-}{}{}uart0@{init\_\discretionary {-}{}{}uart0}|hyperpage}{16}
+\indexentry{init\_\discretionary {-}{}{}uart0@{init\_\discretionary {-}{}{}uart0}!Main.c@{Main.c}|hyperpage}{16}
+\indexentry{Main.c@{Main.c}!main@{main}|hyperpage}{16}
+\indexentry{main@{main}!Main.c@{Main.c}|hyperpage}{16}
+\indexentry{Main.c@{Main.c}!SIGNAL@{SIGNAL}|hyperpage}{16}
+\indexentry{SIGNAL@{SIGNAL}!Main.c@{Main.c}|hyperpage}{16}
+\indexentry{Main.c@{Main.c}!uart0\_\discretionary {-}{}{}init@{uart0\_\discretionary {-}{}{}init}|hyperpage}{16}
+\indexentry{uart0\_\discretionary {-}{}{}init@{uart0\_\discretionary {-}{}{}init}!Main.c@{Main.c}|hyperpage}{16}
+\indexentry{Main.c@{Main.c}!count@{count}|hyperpage}{16}
+\indexentry{count@{count}!Main.c@{Main.c}|hyperpage}{16}
+\indexentry{Main.c@{Main.c}!data@{data}|hyperpage}{16}
+\indexentry{data@{data}!Main.c@{Main.c}|hyperpage}{16}
+\indexentry{Main.c@{Main.c}!flag@{flag}|hyperpage}{16}
+\indexentry{flag@{flag}!Main.c@{Main.c}|hyperpage}{16}
+\indexentry{Main.c@{Main.c}!flag\_\discretionary {-}{}{}rx@{flag\_\discretionary {-}{}{}rx}|hyperpage}{16}
+\indexentry{flag\_\discretionary {-}{}{}rx@{flag\_\discretionary {-}{}{}rx}!Main.c@{Main.c}|hyperpage}{16}
+\indexentry{Main.c@{Main.c}!flag\_\discretionary {-}{}{}turn@{flag\_\discretionary {-}{}{}turn}|hyperpage}{16}
+\indexentry{flag\_\discretionary {-}{}{}turn@{flag\_\discretionary {-}{}{}turn}!Main.c@{Main.c}|hyperpage}{16}
+\indexentry{Main.c@{Main.c}!flag\_\discretionary {-}{}{}x@{flag\_\discretionary {-}{}{}x}|hyperpage}{16}
+\indexentry{flag\_\discretionary {-}{}{}x@{flag\_\discretionary {-}{}{}x}!Main.c@{Main.c}|hyperpage}{16}
+\indexentry{Main.c@{Main.c}!r\_\discretionary {-}{}{}count@{r\_\discretionary {-}{}{}count}|hyperpage}{16}
+\indexentry{r\_\discretionary {-}{}{}count@{r\_\discretionary {-}{}{}count}!Main.c@{Main.c}|hyperpage}{16}
+\indexentry{Main.c@{Main.c}!rev\_\discretionary {-}{}{}dis@{rev\_\discretionary {-}{}{}dis}|hyperpage}{16}
+\indexentry{rev\_\discretionary {-}{}{}dis@{rev\_\discretionary {-}{}{}dis}!Main.c@{Main.c}|hyperpage}{16}
+\indexentry{Main.c@{Main.c}!temp@{temp}|hyperpage}{16}
+\indexentry{temp@{temp}!Main.c@{Main.c}|hyperpage}{16}
+\indexentry{Main.c@{Main.c}!temp1@{temp1}|hyperpage}{16}
+\indexentry{temp1@{temp1}!Main.c@{Main.c}|hyperpage}{16}
+\indexentry{Main.c@{Main.c}!value\_\discretionary {-}{}{}center@{value\_\discretionary {-}{}{}center}|hyperpage}{16}
+\indexentry{value\_\discretionary {-}{}{}center@{value\_\discretionary {-}{}{}center}!Main.c@{Main.c}|hyperpage}{16}
+\indexentry{Main.c@{Main.c}!value\_\discretionary {-}{}{}center\_\discretionary {-}{}{}left@{value\_\discretionary {-}{}{}center\_\discretionary {-}{}{}left}|hyperpage}{16}
+\indexentry{value\_\discretionary {-}{}{}center\_\discretionary {-}{}{}left@{value\_\discretionary {-}{}{}center\_\discretionary {-}{}{}left}!Main.c@{Main.c}|hyperpage}{16}
+\indexentry{Main.c@{Main.c}!value\_\discretionary {-}{}{}center\_\discretionary {-}{}{}right@{value\_\discretionary {-}{}{}center\_\discretionary {-}{}{}right}|hyperpage}{16}
+\indexentry{value\_\discretionary {-}{}{}center\_\discretionary {-}{}{}right@{value\_\discretionary {-}{}{}center\_\discretionary {-}{}{}right}!Main.c@{Main.c}|hyperpage}{16}
+\indexentry{Main.c@{Main.c}!value\_\discretionary {-}{}{}left@{value\_\discretionary {-}{}{}left}|hyperpage}{16}
+\indexentry{value\_\discretionary {-}{}{}left@{value\_\discretionary {-}{}{}left}!Main.c@{Main.c}|hyperpage}{16}
+\indexentry{Main.c@{Main.c}!value\_\discretionary {-}{}{}right@{value\_\discretionary {-}{}{}right}|hyperpage}{16}
+\indexentry{value\_\discretionary {-}{}{}right@{value\_\discretionary {-}{}{}right}!Main.c@{Main.c}|hyperpage}{16}
+\indexentry{Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/serial1.m@{Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/serial1.m}|hyperpage}{17}
+\indexentry{serial1.m@{serial1.m}!delete@{delete}|hyperpage}{18}
+\indexentry{delete@{delete}!serial1.m@{serial1.m}|hyperpage}{18}
+\indexentry{serial1.m@{serial1.m}!elseif@{elseif}|hyperpage}{18}
+\indexentry{elseif@{elseif}!serial1.m@{serial1.m}|hyperpage}{18}
+\indexentry{serial1.m@{serial1.m}!fopen@{fopen}|hyperpage}{18}
+\indexentry{fopen@{fopen}!serial1.m@{serial1.m}|hyperpage}{18}
+\indexentry{serial1.m@{serial1.m}!fprintf@{fprintf}|hyperpage}{18}
+\indexentry{fprintf@{fprintf}!serial1.m@{serial1.m}|hyperpage}{18}
+\indexentry{serial1.m@{serial1.m}!fprintf@{fprintf}|hyperpage}{18}
+\indexentry{fprintf@{fprintf}!serial1.m@{serial1.m}|hyperpage}{18}
+\indexentry{serial1.m@{serial1.m}!get@{get}|hyperpage}{18}
+\indexentry{get@{get}!serial1.m@{serial1.m}|hyperpage}{18}
+\indexentry{serial1.m@{serial1.m}!if@{if}|hyperpage}{18}
+\indexentry{if@{if}!serial1.m@{serial1.m}|hyperpage}{18}
+\indexentry{serial1.m@{serial1.m}!imagesc@{imagesc}|hyperpage}{18}
+\indexentry{imagesc@{imagesc}!serial1.m@{serial1.m}|hyperpage}{18}
+\indexentry{serial1.m@{serial1.m}!img\_\discretionary {-}{}{}bin@{img\_\discretionary {-}{}{}bin}|hyperpage}{18}
+\indexentry{img\_\discretionary {-}{}{}bin@{img\_\discretionary {-}{}{}bin}!serial1.m@{serial1.m}|hyperpage}{18}
+\indexentry{serial1.m@{serial1.m}!imshow@{imshow}|hyperpage}{18}
+\indexentry{imshow@{imshow}!serial1.m@{serial1.m}|hyperpage}{18}
+\indexentry{serial1.m@{serial1.m}!imshow@{imshow}|hyperpage}{18}
+\indexentry{imshow@{imshow}!serial1.m@{serial1.m}|hyperpage}{18}
+\indexentry{serial1.m@{serial1.m}!preview@{preview}|hyperpage}{18}
+\indexentry{preview@{preview}!serial1.m@{serial1.m}|hyperpage}{18}
+\indexentry{serial1.m@{serial1.m}!set@{set}|hyperpage}{18}
+\indexentry{set@{set}!serial1.m@{serial1.m}|hyperpage}{18}
+\indexentry{serial1.m@{serial1.m}!while@{while}|hyperpage}{18}
+\indexentry{while@{while}!serial1.m@{serial1.m}|hyperpage}{18}
+\indexentry{serial1.m@{serial1.m}!while@{while}|hyperpage}{18}
+\indexentry{while@{while}!serial1.m@{serial1.m}|hyperpage}{18}
+\indexentry{serial1.m@{serial1.m}!figure@{figure}|hyperpage}{18}
+\indexentry{figure@{figure}!serial1.m@{serial1.m}|hyperpage}{18}
+\indexentry{serial1.m@{serial1.m}!img@{img}|hyperpage}{18}
+\indexentry{img@{img}!serial1.m@{serial1.m}|hyperpage}{18}
+\indexentry{serial1.m@{serial1.m}!j@{j}|hyperpage}{18}
+\indexentry{j@{j}!serial1.m@{serial1.m}|hyperpage}{18}
+\indexentry{serial1.m@{serial1.m}!k@{k}|hyperpage}{18}
+\indexentry{k@{k}!serial1.m@{serial1.m}|hyperpage}{18}
+\indexentry{serial1.m@{serial1.m}!l@{l}|hyperpage}{19}
+\indexentry{l@{l}!serial1.m@{serial1.m}|hyperpage}{19}
+\indexentry{serial1.m@{serial1.m}!ReadAsyncMode@{ReadAsyncMode}|hyperpage}{19}
+\indexentry{ReadAsyncMode@{ReadAsyncMode}!serial1.m@{serial1.m}|hyperpage}{19}
+\indexentry{serial1.m@{serial1.m}!s@{s}|hyperpage}{19}
+\indexentry{s@{s}!serial1.m@{serial1.m}|hyperpage}{19}
+\indexentry{serial1.m@{serial1.m}!send@{send}|hyperpage}{19}
+\indexentry{send@{send}!serial1.m@{serial1.m}|hyperpage}{19}
+\indexentry{serial1.m@{serial1.m}!STATS@{STATS}|hyperpage}{19}
+\indexentry{STATS@{STATS}!serial1.m@{serial1.m}|hyperpage}{19}
+\indexentry{serial1.m@{serial1.m}!vid@{vid}|hyperpage}{19}
+\indexentry{vid@{vid}!serial1.m@{serial1.m}|hyperpage}{19}
+\indexentry{Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/servo.c@{Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/servo.c}|hyperpage}{20}
+\indexentry{servo.c@{servo.c}!init\_\discretionary {-}{}{}devices\_\discretionary {-}{}{}servo@{init\_\discretionary {-}{}{}devices\_\discretionary {-}{}{}servo}|hyperpage}{21}
+\indexentry{init\_\discretionary {-}{}{}devices\_\discretionary {-}{}{}servo@{init\_\discretionary {-}{}{}devices\_\discretionary {-}{}{}servo}!servo.c@{servo.c}|hyperpage}{21}
+\indexentry{servo.c@{servo.c}!port\_\discretionary {-}{}{}init\_\discretionary {-}{}{}servo@{port\_\discretionary {-}{}{}init\_\discretionary {-}{}{}servo}|hyperpage}{21}
+\indexentry{port\_\discretionary {-}{}{}init\_\discretionary {-}{}{}servo@{port\_\discretionary {-}{}{}init\_\discretionary {-}{}{}servo}!servo.c@{servo.c}|hyperpage}{21}
+\indexentry{servo.c@{servo.c}!servo1\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config@{servo1\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config}|hyperpage}{21}
+\indexentry{servo1\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config@{servo1\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config}!servo.c@{servo.c}|hyperpage}{21}
+\indexentry{servo.c@{servo.c}!servo2\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config@{servo2\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config}|hyperpage}{21}
+\indexentry{servo2\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config@{servo2\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config}!servo.c@{servo.c}|hyperpage}{21}
+\indexentry{servo.c@{servo.c}!servo3\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config@{servo3\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config}|hyperpage}{21}
+\indexentry{servo3\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config@{servo3\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config}!servo.c@{servo.c}|hyperpage}{21}
+\indexentry{servo.c@{servo.c}!servo\_\discretionary {-}{}{}1@{servo\_\discretionary {-}{}{}1}|hyperpage}{21}
+\indexentry{servo\_\discretionary {-}{}{}1@{servo\_\discretionary {-}{}{}1}!servo.c@{servo.c}|hyperpage}{21}
+\indexentry{servo.c@{servo.c}!servo\_\discretionary {-}{}{}1\_\discretionary {-}{}{}free@{servo\_\discretionary {-}{}{}1\_\discretionary {-}{}{}free}|hyperpage}{21}
+\indexentry{servo\_\discretionary {-}{}{}1\_\discretionary {-}{}{}free@{servo\_\discretionary {-}{}{}1\_\discretionary {-}{}{}free}!servo.c@{servo.c}|hyperpage}{21}
+\indexentry{servo.c@{servo.c}!servo\_\discretionary {-}{}{}2@{servo\_\discretionary {-}{}{}2}|hyperpage}{21}
+\indexentry{servo\_\discretionary {-}{}{}2@{servo\_\discretionary {-}{}{}2}!servo.c@{servo.c}|hyperpage}{21}
+\indexentry{servo.c@{servo.c}!servo\_\discretionary {-}{}{}2\_\discretionary {-}{}{}free@{servo\_\discretionary {-}{}{}2\_\discretionary {-}{}{}free}|hyperpage}{21}
+\indexentry{servo\_\discretionary {-}{}{}2\_\discretionary {-}{}{}free@{servo\_\discretionary {-}{}{}2\_\discretionary {-}{}{}free}!servo.c@{servo.c}|hyperpage}{21}
+\indexentry{servo.c@{servo.c}!servo\_\discretionary {-}{}{}3@{servo\_\discretionary {-}{}{}3}|hyperpage}{21}
+\indexentry{servo\_\discretionary {-}{}{}3@{servo\_\discretionary {-}{}{}3}!servo.c@{servo.c}|hyperpage}{21}
+\indexentry{servo.c@{servo.c}!servo\_\discretionary {-}{}{}3\_\discretionary {-}{}{}free@{servo\_\discretionary {-}{}{}3\_\discretionary {-}{}{}free}|hyperpage}{21}
+\indexentry{servo\_\discretionary {-}{}{}3\_\discretionary {-}{}{}free@{servo\_\discretionary {-}{}{}3\_\discretionary {-}{}{}free}!servo.c@{servo.c}|hyperpage}{21}
+\indexentry{servo.c@{servo.c}!timer1\_\discretionary {-}{}{}init@{timer1\_\discretionary {-}{}{}init}|hyperpage}{21}
+\indexentry{timer1\_\discretionary {-}{}{}init@{timer1\_\discretionary {-}{}{}init}!servo.c@{servo.c}|hyperpage}{21}
+\indexentry{Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/zigbee.c@{Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/zigbee.c}|hyperpage}{22}

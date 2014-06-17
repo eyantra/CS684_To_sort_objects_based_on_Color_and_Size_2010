@@ -1,0 +1,190 @@
+\contentsline {chapter}{\numberline {1}File Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}File List}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}File Documentation}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/cover\_\discretionary {-}{}{}field.c File Reference}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Define Documentation}{7}{subsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.1.1}cbit}{7}{subsubsection.2.1.1.1}
+\contentsline {subsubsection}{\numberline {2.1.1.2}EN}{7}{subsubsection.2.1.1.2}
+\contentsline {subsubsection}{\numberline {2.1.1.3}FCPU}{7}{subsubsection.2.1.1.3}
+\contentsline {subsubsection}{\numberline {2.1.1.4}FCPU}{7}{subsubsection.2.1.1.4}
+\contentsline {subsubsection}{\numberline {2.1.1.5}lcd\_\discretionary {-}{}{}port}{7}{subsubsection.2.1.1.5}
+\contentsline {subsubsection}{\numberline {2.1.1.6}RS}{7}{subsubsection.2.1.1.6}
+\contentsline {subsubsection}{\numberline {2.1.1.7}RW}{7}{subsubsection.2.1.1.7}
+\contentsline {subsubsection}{\numberline {2.1.1.8}sbit}{7}{subsubsection.2.1.1.8}
+\contentsline {subsection}{\numberline {2.1.2}Function Documentation}{7}{subsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.2.1}ADC\_\discretionary {-}{}{}Conversion}{7}{subsubsection.2.1.2.1}
+\contentsline {subsubsection}{\numberline {2.1.2.2}adc\_\discretionary {-}{}{}init}{7}{subsubsection.2.1.2.2}
+\contentsline {subsubsection}{\numberline {2.1.2.3}adc\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config}{7}{subsubsection.2.1.2.3}
+\contentsline {subsubsection}{\numberline {2.1.2.4}ANGLE\_\discretionary {-}{}{}ROTATE}{7}{subsubsection.2.1.2.4}
+\contentsline {subsubsection}{\numberline {2.1.2.5}FORWARD}{7}{subsubsection.2.1.2.5}
+\contentsline {subsubsection}{\numberline {2.1.2.6}init\_\discretionary {-}{}{}devices}{7}{subsubsection.2.1.2.6}
+\contentsline {subsubsection}{\numberline {2.1.2.7}INIT\_\discretionary {-}{}{}INTERRUPT}{7}{subsubsection.2.1.2.7}
+\contentsline {subsubsection}{\numberline {2.1.2.8}INIT\_\discretionary {-}{}{}PORTS}{7}{subsubsection.2.1.2.8}
+\contentsline {subsubsection}{\numberline {2.1.2.9}init\_\discretionary {-}{}{}ports}{7}{subsubsection.2.1.2.9}
+\contentsline {subsubsection}{\numberline {2.1.2.10}ISR}{7}{subsubsection.2.1.2.10}
+\contentsline {subsubsection}{\numberline {2.1.2.11}ISR}{7}{subsubsection.2.1.2.11}
+\contentsline {subsubsection}{\numberline {2.1.2.12}lcd\_\discretionary {-}{}{}cursor}{7}{subsubsection.2.1.2.12}
+\contentsline {subsubsection}{\numberline {2.1.2.13}lcd\_\discretionary {-}{}{}home}{7}{subsubsection.2.1.2.13}
+\contentsline {subsubsection}{\numberline {2.1.2.14}lcd\_\discretionary {-}{}{}init}{7}{subsubsection.2.1.2.14}
+\contentsline {subsubsection}{\numberline {2.1.2.15}lcd\_\discretionary {-}{}{}port\_\discretionary {-}{}{}config}{7}{subsubsection.2.1.2.15}
+\contentsline {subsubsection}{\numberline {2.1.2.16}lcd\_\discretionary {-}{}{}print}{7}{subsubsection.2.1.2.16}
+\contentsline {subsubsection}{\numberline {2.1.2.17}lcd\_\discretionary {-}{}{}reset\_\discretionary {-}{}{}4bit}{7}{subsubsection.2.1.2.17}
+\contentsline {subsubsection}{\numberline {2.1.2.18}lcd\_\discretionary {-}{}{}set\_\discretionary {-}{}{}4bit}{7}{subsubsection.2.1.2.18}
+\contentsline {subsubsection}{\numberline {2.1.2.19}lcd\_\discretionary {-}{}{}string}{7}{subsubsection.2.1.2.19}
+\contentsline {subsubsection}{\numberline {2.1.2.20}lcd\_\discretionary {-}{}{}wr\_\discretionary {-}{}{}char}{7}{subsubsection.2.1.2.20}
+\contentsline {subsubsection}{\numberline {2.1.2.21}lcd\_\discretionary {-}{}{}wr\_\discretionary {-}{}{}command}{7}{subsubsection.2.1.2.21}
+\contentsline {subsubsection}{\numberline {2.1.2.22}LEFT\_\discretionary {-}{}{}REVERSE}{7}{subsubsection.2.1.2.22}
+\contentsline {subsubsection}{\numberline {2.1.2.23}Left\_\discretionary {-}{}{}Speed}{7}{subsubsection.2.1.2.23}
+\contentsline {subsubsection}{\numberline {2.1.2.24}LEFT\_\discretionary {-}{}{}TURN}{7}{subsubsection.2.1.2.24}
+\contentsline {subsubsection}{\numberline {2.1.2.25}LEFT\_\discretionary {-}{}{}TURN\_\discretionary {-}{}{}SOFT}{7}{subsubsection.2.1.2.25}
+\contentsline {subsubsection}{\numberline {2.1.2.26}LINEAR\_\discretionary {-}{}{}DISTANCE}{7}{subsubsection.2.1.2.26}
+\contentsline {subsubsection}{\numberline {2.1.2.27}port\_\discretionary {-}{}{}init}{7}{subsubsection.2.1.2.27}
+\contentsline {subsubsection}{\numberline {2.1.2.28}REVERSE}{7}{subsubsection.2.1.2.28}
+\contentsline {subsubsection}{\numberline {2.1.2.29}RIGHT\_\discretionary {-}{}{}REVERSE}{7}{subsubsection.2.1.2.29}
+\contentsline {subsubsection}{\numberline {2.1.2.30}Right\_\discretionary {-}{}{}Speed}{7}{subsubsection.2.1.2.30}
+\contentsline {subsubsection}{\numberline {2.1.2.31}RIGHT\_\discretionary {-}{}{}TURN}{7}{subsubsection.2.1.2.31}
+\contentsline {subsubsection}{\numberline {2.1.2.32}RIGHT\_\discretionary {-}{}{}TURN\_\discretionary {-}{}{}SOFT}{7}{subsubsection.2.1.2.32}
+\contentsline {subsubsection}{\numberline {2.1.2.33}Sharp\_\discretionary {-}{}{}GP2D12\_\discretionary {-}{}{}estimation}{7}{subsubsection.2.1.2.33}
+\contentsline {subsubsection}{\numberline {2.1.2.34}STOP}{7}{subsubsection.2.1.2.34}
+\contentsline {subsubsection}{\numberline {2.1.2.35}timer5\_\discretionary {-}{}{}init}{7}{subsubsection.2.1.2.35}
+\contentsline {subsection}{\numberline {2.1.3}Variable Documentation}{7}{subsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.3.1}adc\_\discretionary {-}{}{}reading}{7}{subsubsection.2.1.3.1}
+\contentsline {subsubsection}{\numberline {2.1.3.2}ADC\_\discretionary {-}{}{}Value}{7}{subsubsection.2.1.3.2}
+\contentsline {subsubsection}{\numberline {2.1.3.3}BATT\_\discretionary {-}{}{}V}{7}{subsubsection.2.1.3.3}
+\contentsline {subsubsection}{\numberline {2.1.3.4}BATT\_\discretionary {-}{}{}Voltage}{7}{subsubsection.2.1.3.4}
+\contentsline {subsubsection}{\numberline {2.1.3.5}distance}{7}{subsubsection.2.1.3.5}
+\contentsline {subsubsection}{\numberline {2.1.3.6}hundred}{7}{subsubsection.2.1.3.6}
+\contentsline {subsubsection}{\numberline {2.1.3.7}i}{7}{subsubsection.2.1.3.7}
+\contentsline {subsubsection}{\numberline {2.1.3.8}million}{7}{subsubsection.2.1.3.8}
+\contentsline {subsubsection}{\numberline {2.1.3.9}shaftCountLeft}{7}{subsubsection.2.1.3.9}
+\contentsline {subsubsection}{\numberline {2.1.3.10}shaftCountRight}{7}{subsubsection.2.1.3.10}
+\contentsline {subsubsection}{\numberline {2.1.3.11}sharp\_\discretionary {-}{}{}center}{7}{subsubsection.2.1.3.11}
+\contentsline {subsubsection}{\numberline {2.1.3.12}sharp\_\discretionary {-}{}{}center\_\discretionary {-}{}{}left}{7}{subsubsection.2.1.3.12}
+\contentsline {subsubsection}{\numberline {2.1.3.13}sharp\_\discretionary {-}{}{}center\_\discretionary {-}{}{}right}{7}{subsubsection.2.1.3.13}
+\contentsline {subsubsection}{\numberline {2.1.3.14}sharp\_\discretionary {-}{}{}left}{7}{subsubsection.2.1.3.14}
+\contentsline {subsubsection}{\numberline {2.1.3.15}sharp\_\discretionary {-}{}{}right}{7}{subsubsection.2.1.3.15}
+\contentsline {subsubsection}{\numberline {2.1.3.16}temp}{7}{subsubsection.2.1.3.16}
+\contentsline {subsubsection}{\numberline {2.1.3.17}tens}{7}{subsubsection.2.1.3.17}
+\contentsline {subsubsection}{\numberline {2.1.3.18}thousand}{7}{subsubsection.2.1.3.18}
+\contentsline {subsubsection}{\numberline {2.1.3.19}unit}{7}{subsubsection.2.1.3.19}
+\contentsline {subsubsection}{\numberline {2.1.3.20}value\_\discretionary {-}{}{}center}{7}{subsubsection.2.1.3.20}
+\contentsline {subsubsection}{\numberline {2.1.3.21}value\_\discretionary {-}{}{}left}{7}{subsubsection.2.1.3.21}
+\contentsline {subsubsection}{\numberline {2.1.3.22}value\_\discretionary {-}{}{}right}{7}{subsubsection.2.1.3.22}
+\contentsline {subsubsection}{\numberline {2.1.3.23}white\_\discretionary {-}{}{}1}{7}{subsubsection.2.1.3.23}
+\contentsline {subsubsection}{\numberline {2.1.3.24}white\_\discretionary {-}{}{}2}{7}{subsubsection.2.1.3.24}
+\contentsline {subsubsection}{\numberline {2.1.3.25}white\_\discretionary {-}{}{}3}{7}{subsubsection.2.1.3.25}
+\contentsline {section}{\numberline {2.2}Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/grp\_\discretionary {-}{}{}4\_\discretionary {-}{}{}try1.m File Reference}{8}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Function Documentation}{10}{subsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.1.1}elseif}{10}{subsubsection.2.2.1.1}
+\contentsline {subsubsection}{\numberline {2.2.1.2}if}{10}{subsubsection.2.2.1.2}
+\contentsline {subsubsection}{\numberline {2.2.1.3}if}{10}{subsubsection.2.2.1.3}
+\contentsline {subsubsection}{\numberline {2.2.1.4}if}{10}{subsubsection.2.2.1.4}
+\contentsline {subsubsection}{\numberline {2.2.1.5}imagesc}{10}{subsubsection.2.2.1.5}
+\contentsline {subsubsection}{\numberline {2.2.1.6}img\_\discretionary {-}{}{}bin}{10}{subsubsection.2.2.1.6}
+\contentsline {subsubsection}{\numberline {2.2.1.7}imshow}{10}{subsubsection.2.2.1.7}
+\contentsline {subsubsection}{\numberline {2.2.1.8}imshow}{10}{subsubsection.2.2.1.8}
+\contentsline {subsubsection}{\numberline {2.2.1.9}imshow}{10}{subsubsection.2.2.1.9}
+\contentsline {subsubsection}{\numberline {2.2.1.10}obj}{10}{subsubsection.2.2.1.10}
+\contentsline {subsubsection}{\numberline {2.2.1.11}STATS}{10}{subsubsection.2.2.1.11}
+\contentsline {subsubsection}{\numberline {2.2.1.12}while}{10}{subsubsection.2.2.1.12}
+\contentsline {subsection}{\numberline {2.2.2}Variable Documentation}{10}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}all}{10}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}clc}{10}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.3}count\_\discretionary {-}{}{}num}{10}{subsubsection.2.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.2.4}i}{10}{subsubsection.2.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.2.5}img}{10}{subsubsection.2.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.2.6}img1}{10}{subsubsection.2.2.2.6}
+\contentsline {subsubsection}{\numberline {2.2.2.7}indent}{10}{subsubsection.2.2.2.7}
+\contentsline {subsubsection}{\numberline {2.2.2.8}indicator}{10}{subsubsection.2.2.2.8}
+\contentsline {subsubsection}{\numberline {2.2.2.9}j}{10}{subsubsection.2.2.2.9}
+\contentsline {subsubsection}{\numberline {2.2.2.10}k}{10}{subsubsection.2.2.2.10}
+\contentsline {subsubsection}{\numberline {2.2.2.11}l}{11}{subsubsection.2.2.2.11}
+\contentsline {subsubsection}{\numberline {2.2.2.12}m}{11}{subsubsection.2.2.2.12}
+\contentsline {subsubsection}{\numberline {2.2.2.13}num1}{11}{subsubsection.2.2.2.13}
+\contentsline {subsubsection}{\numberline {2.2.2.14}STATS}{11}{subsubsection.2.2.2.14}
+\contentsline {section}{\numberline {2.3}Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/latest\_\discretionary {-}{}{}white.m File Reference}{12}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Function Documentation}{13}{subsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.1.1}delete}{13}{subsubsection.2.3.1.1}
+\contentsline {subsubsection}{\numberline {2.3.1.2}elseif}{13}{subsubsection.2.3.1.2}
+\contentsline {subsubsection}{\numberline {2.3.1.3}if}{13}{subsubsection.2.3.1.3}
+\contentsline {subsubsection}{\numberline {2.3.1.4}imagesc}{13}{subsubsection.2.3.1.4}
+\contentsline {subsubsection}{\numberline {2.3.1.5}img\_\discretionary {-}{}{}bin}{13}{subsubsection.2.3.1.5}
+\contentsline {subsubsection}{\numberline {2.3.1.6}imshow}{13}{subsubsection.2.3.1.6}
+\contentsline {subsubsection}{\numberline {2.3.1.7}imshow}{13}{subsubsection.2.3.1.7}
+\contentsline {subsubsection}{\numberline {2.3.1.8}preview}{13}{subsubsection.2.3.1.8}
+\contentsline {subsubsection}{\numberline {2.3.1.9}set}{13}{subsubsection.2.3.1.9}
+\contentsline {subsubsection}{\numberline {2.3.1.10}stop}{13}{subsubsection.2.3.1.10}
+\contentsline {subsection}{\numberline {2.3.2}Variable Documentation}{13}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}count}{13}{subsubsection.2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.2}figure}{13}{subsubsection.2.3.2.2}
+\contentsline {subsubsection}{\numberline {2.3.2.3}img}{13}{subsubsection.2.3.2.3}
+\contentsline {subsubsection}{\numberline {2.3.2.4}j}{13}{subsubsection.2.3.2.4}
+\contentsline {subsubsection}{\numberline {2.3.2.5}k}{13}{subsubsection.2.3.2.5}
+\contentsline {subsubsection}{\numberline {2.3.2.6}l}{14}{subsubsection.2.3.2.6}
+\contentsline {subsubsection}{\numberline {2.3.2.7}STATS}{14}{subsubsection.2.3.2.7}
+\contentsline {subsubsection}{\numberline {2.3.2.8}vid}{14}{subsubsection.2.3.2.8}
+\contentsline {section}{\numberline {2.4}Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/Main.c File Reference}{15}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Function Documentation}{16}{subsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.1.1}init\_\discretionary {-}{}{}uart0}{16}{subsubsection.2.4.1.1}
+\contentsline {subsubsection}{\numberline {2.4.1.2}main}{16}{subsubsection.2.4.1.2}
+\contentsline {subsubsection}{\numberline {2.4.1.3}SIGNAL}{16}{subsubsection.2.4.1.3}
+\contentsline {subsubsection}{\numberline {2.4.1.4}uart0\_\discretionary {-}{}{}init}{16}{subsubsection.2.4.1.4}
+\contentsline {subsection}{\numberline {2.4.2}Variable Documentation}{16}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}count}{16}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.2}data}{16}{subsubsection.2.4.2.2}
+\contentsline {subsubsection}{\numberline {2.4.2.3}flag}{16}{subsubsection.2.4.2.3}
+\contentsline {subsubsection}{\numberline {2.4.2.4}flag\_\discretionary {-}{}{}rx}{16}{subsubsection.2.4.2.4}
+\contentsline {subsubsection}{\numberline {2.4.2.5}flag\_\discretionary {-}{}{}turn}{16}{subsubsection.2.4.2.5}
+\contentsline {subsubsection}{\numberline {2.4.2.6}flag\_\discretionary {-}{}{}x}{16}{subsubsection.2.4.2.6}
+\contentsline {subsubsection}{\numberline {2.4.2.7}r\_\discretionary {-}{}{}count}{16}{subsubsection.2.4.2.7}
+\contentsline {subsubsection}{\numberline {2.4.2.8}rev\_\discretionary {-}{}{}dis}{16}{subsubsection.2.4.2.8}
+\contentsline {subsubsection}{\numberline {2.4.2.9}temp}{16}{subsubsection.2.4.2.9}
+\contentsline {subsubsection}{\numberline {2.4.2.10}temp1}{16}{subsubsection.2.4.2.10}
+\contentsline {subsubsection}{\numberline {2.4.2.11}value\_\discretionary {-}{}{}center}{16}{subsubsection.2.4.2.11}
+\contentsline {subsubsection}{\numberline {2.4.2.12}value\_\discretionary {-}{}{}center\_\discretionary {-}{}{}left}{16}{subsubsection.2.4.2.12}
+\contentsline {subsubsection}{\numberline {2.4.2.13}value\_\discretionary {-}{}{}center\_\discretionary {-}{}{}right}{16}{subsubsection.2.4.2.13}
+\contentsline {subsubsection}{\numberline {2.4.2.14}value\_\discretionary {-}{}{}left}{16}{subsubsection.2.4.2.14}
+\contentsline {subsubsection}{\numberline {2.4.2.15}value\_\discretionary {-}{}{}right}{16}{subsubsection.2.4.2.15}
+\contentsline {section}{\numberline {2.5}Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/serial1.m File Reference}{17}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Function Documentation}{18}{subsection.2.5.1}
+\contentsline {subsubsection}{\numberline {2.5.1.1}delete}{18}{subsubsection.2.5.1.1}
+\contentsline {subsubsection}{\numberline {2.5.1.2}elseif}{18}{subsubsection.2.5.1.2}
+\contentsline {subsubsection}{\numberline {2.5.1.3}fopen}{18}{subsubsection.2.5.1.3}
+\contentsline {subsubsection}{\numberline {2.5.1.4}fprintf}{18}{subsubsection.2.5.1.4}
+\contentsline {subsubsection}{\numberline {2.5.1.5}fprintf}{18}{subsubsection.2.5.1.5}
+\contentsline {subsubsection}{\numberline {2.5.1.6}get}{18}{subsubsection.2.5.1.6}
+\contentsline {subsubsection}{\numberline {2.5.1.7}if}{18}{subsubsection.2.5.1.7}
+\contentsline {subsubsection}{\numberline {2.5.1.8}imagesc}{18}{subsubsection.2.5.1.8}
+\contentsline {subsubsection}{\numberline {2.5.1.9}img\_\discretionary {-}{}{}bin}{18}{subsubsection.2.5.1.9}
+\contentsline {subsubsection}{\numberline {2.5.1.10}imshow}{18}{subsubsection.2.5.1.10}
+\contentsline {subsubsection}{\numberline {2.5.1.11}imshow}{18}{subsubsection.2.5.1.11}
+\contentsline {subsubsection}{\numberline {2.5.1.12}preview}{18}{subsubsection.2.5.1.12}
+\contentsline {subsubsection}{\numberline {2.5.1.13}set}{18}{subsubsection.2.5.1.13}
+\contentsline {subsubsection}{\numberline {2.5.1.14}while}{18}{subsubsection.2.5.1.14}
+\contentsline {subsubsection}{\numberline {2.5.1.15}while}{18}{subsubsection.2.5.1.15}
+\contentsline {subsection}{\numberline {2.5.2}Variable Documentation}{18}{subsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.2.1}figure}{18}{subsubsection.2.5.2.1}
+\contentsline {subsubsection}{\numberline {2.5.2.2}img}{18}{subsubsection.2.5.2.2}
+\contentsline {subsubsection}{\numberline {2.5.2.3}j}{18}{subsubsection.2.5.2.3}
+\contentsline {subsubsection}{\numberline {2.5.2.4}k}{18}{subsubsection.2.5.2.4}
+\contentsline {subsubsection}{\numberline {2.5.2.5}l}{19}{subsubsection.2.5.2.5}
+\contentsline {subsubsection}{\numberline {2.5.2.6}ReadAsyncMode}{19}{subsubsection.2.5.2.6}
+\contentsline {subsubsection}{\numberline {2.5.2.7}s}{19}{subsubsection.2.5.2.7}
+\contentsline {subsubsection}{\numberline {2.5.2.8}send}{19}{subsubsection.2.5.2.8}
+\contentsline {subsubsection}{\numberline {2.5.2.9}STATS}{19}{subsubsection.2.5.2.9}
+\contentsline {subsubsection}{\numberline {2.5.2.10}vid}{19}{subsubsection.2.5.2.10}
+\contentsline {section}{\numberline {2.6}Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/servo.c File Reference}{20}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Function Documentation}{21}{subsection.2.6.1}
+\contentsline {subsubsection}{\numberline {2.6.1.1}init\_\discretionary {-}{}{}devices\_\discretionary {-}{}{}servo}{21}{subsubsection.2.6.1.1}
+\contentsline {subsubsection}{\numberline {2.6.1.2}port\_\discretionary {-}{}{}init\_\discretionary {-}{}{}servo}{21}{subsubsection.2.6.1.2}
+\contentsline {subsubsection}{\numberline {2.6.1.3}servo1\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config}{21}{subsubsection.2.6.1.3}
+\contentsline {subsubsection}{\numberline {2.6.1.4}servo2\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config}{21}{subsubsection.2.6.1.4}
+\contentsline {subsubsection}{\numberline {2.6.1.5}servo3\_\discretionary {-}{}{}pin\_\discretionary {-}{}{}config}{21}{subsubsection.2.6.1.5}
+\contentsline {subsubsection}{\numberline {2.6.1.6}servo\_\discretionary {-}{}{}1}{21}{subsubsection.2.6.1.6}
+\contentsline {subsubsection}{\numberline {2.6.1.7}servo\_\discretionary {-}{}{}1\_\discretionary {-}{}{}free}{21}{subsubsection.2.6.1.7}
+\contentsline {subsubsection}{\numberline {2.6.1.8}servo\_\discretionary {-}{}{}2}{21}{subsubsection.2.6.1.8}
+\contentsline {subsubsection}{\numberline {2.6.1.9}servo\_\discretionary {-}{}{}2\_\discretionary {-}{}{}free}{21}{subsubsection.2.6.1.9}
+\contentsline {subsubsection}{\numberline {2.6.1.10}servo\_\discretionary {-}{}{}3}{21}{subsubsection.2.6.1.10}
+\contentsline {subsubsection}{\numberline {2.6.1.11}servo\_\discretionary {-}{}{}3\_\discretionary {-}{}{}free}{21}{subsubsection.2.6.1.11}
+\contentsline {subsubsection}{\numberline {2.6.1.12}timer1\_\discretionary {-}{}{}init}{21}{subsubsection.2.6.1.12}
+\contentsline {section}{\numberline {2.7}Desktop/final\_\discretionary {-}{}{}grp4/grp4/Group\_\discretionary {-}{}{}4/zigbee.c File Reference}{22}{section.2.7}
